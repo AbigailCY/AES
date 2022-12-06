@@ -156,5 +156,5 @@ int main()
 		cout << endl << "Legit solution: " << check_byte_arrays(plaintexts, decrypted_solution, filesize) << endl;
 	}
 
-	getchar();
+	return -1;
 }
