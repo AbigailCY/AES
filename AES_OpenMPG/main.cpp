@@ -32,7 +32,7 @@ using std::string;
 
 void counter_launch_kernel(unsigned char *messages, unsigned char *results, unsigned char *keys, const unsigned int &message_size)
 {
-	double microseconds = 0.0;
+	double seconds = 0.0;
 	double start_time, end_time, exec_time;
 
 	for (int i = 0; i != ROUNDS; ++i)
@@ -43,11 +43,11 @@ void counter_launch_kernel(unsigned char *messages, unsigned char *results, unsi
 
 		end_time = omp_get_wtime();
     	exec_time = end_time - start_time;
-		microseconds += exec_time;
+		seconds += exec_time;
 	}
 
-	cout << microseconds * 1000.0/ ROUNDS << endl;
-	microseconds = 0.0;
+	cout << seconds * 1000.0/ ROUNDS << endl;
+	seconds = 0.0;
 }
 
 /*********************************************************************/
