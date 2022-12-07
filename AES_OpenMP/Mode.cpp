@@ -86,15 +86,15 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	// Starting Timers and Counter Mode for Encryption
 	float microseconds = 0.0f;
 
-	for (int t = 2; t != NUM_THREADS; t += 2)
-	{
-		cout << endl << "OpenMP (" << t << " Threads) - Encrypted Duration  ";
+	// for (int t = 2; t != NUM_THREADS; t += 2)
+	// {
+		cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Encrypted Duration  ";
 
 		for (int r = 0; r != ROUNDS; ++r)
 		{
 			auto start_time = std::chrono::high_resolution_clock::now();
 			
-			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, messages) num_threads(t)
+			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, messages) num_threads(NUM_THREADS)
 			{
 				#pragma omp for 
 				for (i = 0; i < messages.size(); ++i)
@@ -111,7 +111,7 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 
 		cout << microseconds / (1000.0f * ROUNDS) << endl;
 		microseconds = 0.0f;
-	}
+	// }
 
 	return encrypted_messages;
 }
@@ -130,22 +130,21 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 	// Starting Timers and Counter Mode for Encryption
 	float microseconds = 0.0f;
 
-	for (int t = 2; t != NUM_THREADS; t += 2)
-	{
-		cout << endl << "OpenMP (" << t << " Threads) - Decrypted Duration  ";
+	// for (int t = 2; t != NUM_THREADS; t += 2)
+	// {
+		cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Decrypted Duration  ";
 
 		for (int r = 0; r != ROUNDS; ++r)
 		{
 			auto start_time = std::chrono::high_resolution_clock::now();
 
-			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, decrypted_messages) num_threads(t)
+			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, decrypted_messages) num_threads(NUM_THREADS)
 			{
 				#pragma omp for 
 				for (i = 0; i < encrypted_messages.size(); ++i)
 				{
 					decrypted_messages[i] = XOR(aes.encrypt(ctrs[i]), encrypted_messages[i]);
 				}
-
 			}
 
 			auto end_time = std::chrono::high_resolution_clock::now();
@@ -155,7 +154,7 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 		cout << microseconds / (1000.0f * ROUNDS) << endl;
 		microseconds = 0.0f;
-	}
+	// }
 
 	return decrypted_messages;
 }
