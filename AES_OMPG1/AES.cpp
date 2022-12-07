@@ -163,7 +163,7 @@ void aes_encryption(unsigned char *message, unsigned char *result, unsigned char
 			iv_new[i] = res;
 		}
 
-		for (int i = 0; i <= KEY_BLOCK && id + i < width; ++i)
+		for (int i = 0; (i <= KEY_BLOCK )&& (id + i < width); ++i)
 		{
 			result[id + i] = iv_new[i];
 		}
