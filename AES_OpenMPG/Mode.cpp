@@ -141,7 +141,7 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 		#pragma omp target data map(from: decrypted_messages) map(to: aes, encrypted_messages, ctrs)
 		{
-			#pragma omp target
+			// #pragma omp target
 			#pragma omp parallel for private(i)
 			for (i = 0; i < encrypted_messages.size(); ++i)
 			{
