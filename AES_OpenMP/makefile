@@ -1,7 +1,7 @@
 .SUFFIXES: .cpp .o
 CXX = g++
 CXXFLAGS = -std=c++11 -O3 -fopenmp
-EXEC = AES_SEQ
+EXEC = AES_OMPC
 OBJS = Helper.o Mode.o AES.o main.o
 ${EXEC}: ${OBJS}
 	${CXX} ${CXXFLAGS} -o ${EXEC} ${OBJS}
