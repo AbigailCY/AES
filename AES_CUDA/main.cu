@@ -116,45 +116,46 @@ void counter_launch_kernel(unsigned char *messages, unsigned char *results, unsi
 /*                        MAIN FUNCTION CALL                         */
 /*********************************************************************/
 
-int main()
+int main(int argc, char* argv[])
 {
-	for (int i = 6; i > 0; i--)
-	{
-		cout << endl << "Text" << i;
-		string file_path_key = "../key.txt";
-		string file_path_messages = "../text" + std::to_string(i) + ".txt";
-		int filesize = file_size(file_path_messages.c_str());
+	// for (int i = 6; i > 0; i--)
+	// {
+	int i = argv[1]? atoi(argv[1]) : 1;
+	cout << endl << "Text" << i;
+	string file_path_key = "../key.txt";
+	string file_path_messages = "../text" + std::to_string(i) + ".txt";
+	int filesize = file_size(file_path_messages.c_str());
 
-		// Load data from files
-		unsigned char *key = read_key(file_path_key);
-		unsigned char *keys = key_schedule(key);
+	// Load data from files
+	unsigned char *key = read_key(file_path_key);
+	unsigned char *keys = key_schedule(key);
 
-		cout << endl << std::dec << "Starting AES CUDA - COUNTER MODE" << endl;
+	cout << endl << std::dec << "Starting AES CUDA - COUNTER MODE" << endl;
 
-		// Read in data
-		unsigned char * plaintexts = (unsigned char *)malloc(sizeof(unsigned char)*filesize);
-		read_datafile(file_path_messages.c_str(), plaintexts);
+	// Read in data
+	unsigned char * plaintexts = (unsigned char *)malloc(sizeof(unsigned char)*filesize);
+	read_datafile(file_path_messages.c_str(), plaintexts);
 
-		// Malloc Memory for Enc/Decrypted Solutions
-		unsigned char *decrypted_solution;
-		unsigned char *encrypted_solution;
+	// Malloc Memory for Enc/Decrypted Solutions
+	unsigned char *decrypted_solution;
+	unsigned char *encrypted_solution;
 
-		decrypted_solution = new unsigned char[filesize];
-		encrypted_solution = new unsigned char[filesize];
+	decrypted_solution = new unsigned char[filesize];
+	encrypted_solution = new unsigned char[filesize];
 
-		// cout << endl << "Ready to start!" << endl << endl;
+	// cout << endl << "Ready to start!" << endl << endl;
 
-		// Starting Encryption
-		cout << endl << "Starting AES CUDA - COUNTER MODE KERNEL " << endl;
-		counter_launch_kernel(plaintexts, encrypted_solution, keys, filesize, filesize);
+	// Starting Encryption
+	cout << endl << "Starting AES CUDA - COUNTER MODE KERNEL " << endl;
+	counter_launch_kernel(plaintexts, encrypted_solution, keys, filesize, filesize);
 
-		// Starting Decryption
-		cout << endl << "Starting AES CUDA - INVERSE COUNTER MODE KERNEL " << endl;
-		counter_launch_kernel(encrypted_solution, decrypted_solution, keys, filesize, filesize);
+	// Starting Decryption
+	cout << endl << "Starting AES CUDA - INVERSE COUNTER MODE KERNEL " << endl;
+	counter_launch_kernel(encrypted_solution, decrypted_solution, keys, filesize, filesize);
 
-		// Checking if Decryption of Encryption is the plaintext
-		cout << endl << "Legit solution: " << check_byte_arrays(plaintexts, decrypted_solution, filesize) << endl;
-	}
+	// Checking if Decryption of Encryption is the plaintext
+	cout << endl << "Legit solution: " << check_byte_arrays(plaintexts, decrypted_solution, filesize) << endl;
+	// }
 
 	return 0;
 }

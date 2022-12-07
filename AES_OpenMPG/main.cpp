@@ -58,10 +58,9 @@ int main(int argc, char* argv[])
 {
 	// for (int i = 6; i > 0; i--)
 	// {
-	int i = atoi(argv[1]);
+	int i = argv[1]? atoi(argv[1]) : 1;
 	int num_threads = argv[2] ? atoi(argv[2]) :20;
 	omp_set_num_threads(num_threads);
-
 
 	cout << "Text" << i<< endl;
 	cout <<  "Number of threads" << omp_get_num_threads() << endl;

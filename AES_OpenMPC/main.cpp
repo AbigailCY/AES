@@ -18,30 +18,31 @@ using std::endl;
 using std::vector;
 using std::string;
 
-int main()
+int main(int argc, char* argv[])
 {
 	// Define Variables
 	unsigned int iv_length = 12;
 
-	for (int i = 6; i > 0; i--)
-	{
-		cout << endl << "Text" << i;
-		string file_path_key = "../key.txt";
-		string file_path_messages = "../text" + std::to_string(i) + ".txt";
+	// for (int i = 6; i > 0; i--)
+	// {
+	int i = argv[1]? atoi(argv[1]) : 1;
+	cout << endl << "Text" << i;
+	string file_path_key = "../key.txt";
+	string file_path_messages = "../text" + std::to_string(i) + ".txt";
 
-		vector<ByteArray> decrypted_solution;
-		vector<ByteArray> encrypted_solution;
+	vector<ByteArray> decrypted_solution;
+	vector<ByteArray> encrypted_solution;
 
-		// Load data from files
-		ByteArray key = read_key(file_path_key);
-		ByteArray IV = random_byte_array(iv_length);
-		vector<ByteArray> messages = read_datafile(file_path_messages);
+	// Load data from files
+	ByteArray key = read_key(file_path_key);
+	ByteArray IV = random_byte_array(iv_length);
+	vector<ByteArray> messages = read_datafile(file_path_messages);
 
-		encrypted_solution = counter_mode(messages, key, IV);
-		decrypted_solution = counter_mode_inverse(encrypted_solution, key, IV);
+	encrypted_solution = counter_mode(messages, key, IV);
+	decrypted_solution = counter_mode_inverse(encrypted_solution, key, IV);
 
-		cout << endl << "Legit solution: " << check_vector_of_byte_arrays(decrypted_solution, messages) << endl;
-	}
+	cout << endl << "Legit solution: " << check_vector_of_byte_arrays(decrypted_solution, messages) << endl;
+	// }
 
 	return 0;
 }
