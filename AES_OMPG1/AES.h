@@ -23,8 +23,7 @@ using std::vector;
 
 void byte_sub(unsigned char *block_biffer, unsigned char *sharedSbox);
 void shift_rows(unsigned char *block_biffer);
-void aes_MixColumns(unsigned char *block_biffer);
-void mix_columns(unsigned char *column);
+void mix_columns(unsigned char* column, unsigned char* mult_2, unsigned char* mult_3);
 void key_addition(unsigned char *block_biffer, unsigned char *key, const unsigned int &round);
 
 /*********************************************************************/

@@ -23,7 +23,7 @@ using std::endl;
 using std::vector;
 
 //Rijndael multiplication by 2
-unsigned char mult_2[256] = 
+unsigned char mult_22[256] = 
 {
 	0x00,0x02,0x04,0x06,0x08,0x0a,0x0c,0x0e,0x10,0x12,0x14,0x16,0x18,0x1a,0x1c,0x1e,
 	0x20,0x22,0x24,0x26,0x28,0x2a,0x2c,0x2e,0x30,0x32,0x34,0x36,0x38,0x3a,0x3c,0x3e,
@@ -44,7 +44,7 @@ unsigned char mult_2[256] =
 };
 
 //Rijndael multiplication by 3
-unsigned char mult_3[256] = 
+unsigned char mult_33[256] = 
 {
 	0x00,0x03,0x06,0x05,0x0c,0x0f,0x0a,0x09,0x18,0x1b,0x1e,0x1d,0x14,0x17,0x12,0x11,
 	0x30,0x33,0x36,0x35,0x3c,0x3f,0x3a,0x39,0x28,0x2b,0x2e,0x2d,0x24,0x27,0x22,0x21,
@@ -117,7 +117,7 @@ void aes_encryption(unsigned char *message, unsigned char *result, unsigned char
 	if (width%KEY_BLOCK != 0) iters += 1;
 	int iter;
 
-	#pragma op target data map(tofrom: message[0:width], result[0:width], keys[0:NUM_ROUNDS * KEY_BLOCK], width)
+	#pragma omp target data map(to:width, keys[0:NUM_ROUNDS * KEY_BLOCK], d_sbox[0:256],IV[0:KEY_BLOCK], mult_22[0:256], mult_33[0:256]) map(tofrom: result[0:width],  message[0:width])
 	#pragma omp target teams distribute parallel for private(iter)
 	for (iter = 0; iter < iters; iter++) {
 
@@ -150,7 +150,7 @@ void aes_encryption(unsigned char *message, unsigned char *result, unsigned char
 		{
 			byte_sub(iv_new, d_sbox);
 			shift_rows(iv_new);
-			mix_columns(iv_new);
+			mix_columns(iv_new, mult_22, mult_33);
 			key_addition(iv_new, keys, i);
 		}
 
@@ -220,30 +220,9 @@ void shift_rows(unsigned char *message)
 	message[3] = j;
 }
 
-// Pre Mix Column 
-void aes_MixColumns(unsigned char *message) 
-{
-	int i, j;
-	unsigned char column[4];
-
-	for (i = 0; i != 4; ++i) 
-	{
-		for (j = 0; j != 4; ++j) 
-		{
-			column[j] = message[(i * 4) + j];
-		}
-
-		mix_columns(column);
-
-		for (j = 0; j != 4; ++j) 
-		{
-			message[(i * 4) + j] = column[j];
-		}
-	}
-}
 
 // Mix column
-void mix_columns(unsigned char* column)
+void mix_columns(unsigned char* column, unsigned char* mult_2, unsigned char* mult_3)
 {
 	unsigned char i;
 	unsigned char cpy[4];
