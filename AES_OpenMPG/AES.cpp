@@ -118,7 +118,7 @@ void aes_encryption(unsigned char *message, unsigned char *result, unsigned char
 	int iter;
 
 	#pragma omp target data map(to:width, keys[0:NUM_ROUNDS * KEY_BLOCK], d_sbox[0:256],IV[0:KEY_BLOCK], mult_22[0:256], mult_33[0:256]) map(tofrom: result[0:width],  message[0:width])
-	#pragma omp target teams distribute parallel for private(iter)
+	#pragma omp target teams distribute parallel for private(iter) num_threads(1024)
 	for (iter = 0; iter < iters; iter++) {
 
 		int id = iter * KEY_BLOCK;
