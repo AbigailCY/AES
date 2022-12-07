@@ -92,7 +92,7 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	{
 		auto start_time = std::chrono::high_resolution_clock::now();
 		
-		#pragma omp target map(aes, encrypted_messages[0:messages.size()], ctrs[0:messages.size()], messages[0:messages.size()])
+		#pragma omp target map(aes, encrypted_messages, ctrs, messages)
 		#pragma omp parallel for 
 		for (i = 0; i < messages.size(); ++i)
 		{
@@ -136,7 +136,7 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 		// auto start_time = std::chrono::high_resolution_clock::now();
 		start_time = omp_get_wtime();
 
-		#pragma omp target map(aes, encrypted_messages[0:encrypted_messages.size()], ctrs[0:encrypted_messages.size()], decrypted_messages[0:encrypted_messages.size()])
+		#pragma omp target map(aes, encrypted_messages, ctrs, decrypted_messages)
 		#pragma omp parallel for 
 		for (i = 0; i < encrypted_messages.size(); ++i)
 		{
