@@ -92,8 +92,7 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	{
 		auto start_time = std::chrono::high_resolution_clock::now();
 		
-		#pragma omp target
-		#pragma omp parallel for private(i)
+		#pragma omp target teams distribute parallel for private(i)
 		for (i = 0; i < messages.size(); ++i)
 		{
 			encrypted_messages[i] = XOR(aes.encrypt(ctrs[i]), messages[i]);
