@@ -2,14 +2,14 @@
 Text1
 Serial - Encrypted Duration  0.0002
 
-Serial - Decrypted Duration  0.0001
+Serial - Decrypted Duration  0.0002
 
 Legit solution: 1
 
 Text1
-OpenMP (20 Threads) - Encrypted Duration  0.2592
+OpenMP (20 Threads) - Encrypted Duration  0.3078
 
-OpenMP (20 Threads) - Decrypted Duration  0.1951
+OpenMP (20 Threads) - Decrypted Duration  0.205
 
 Legit solution: 1
 Number of threads: 20
@@ -18,11 +18,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 16
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-51.1376
-4.2502
+51.5084
+4.24892
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-4.68109
+4.76319
 
 Legit solution: 1
 
@@ -30,24 +30,24 @@ Text1
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.009216 (ms).
+Done Counter Mode in: 0.0109568 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.008192 (ms).
+Done Counter Mode in: 0.008704 (ms).
 
 Legit solution: 1
 
 Text2
 Serial - Encrypted Duration  0.0092
 
-Serial - Decrypted Duration  0.0104
+Serial - Decrypted Duration  0.0092
 
 Legit solution: 1
 
 Text2
-OpenMP (20 Threads) - Encrypted Duration  0.5335
+OpenMP (20 Threads) - Encrypted Duration  0.3339
 
-OpenMP (20 Threads) - Decrypted Duration  0.3095
+OpenMP (20 Threads) - Decrypted Duration  0.2455
 
 Legit solution: 1
 Number of threads: 20
@@ -56,11 +56,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 256
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-42.7894
-4.22241
+41.9862
+4.21931
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-4.67043
+4.65282
 
 Legit solution: 1
 
@@ -68,24 +68,24 @@ Text2
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0084992 (ms).
+Done Counter Mode in: 0.008704 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0082944 (ms).
+Done Counter Mode in: 0.0083968 (ms).
 
 Legit solution: 1
 
 Text3
-Serial - Encrypted Duration  0.1499
+Serial - Encrypted Duration  0.1452
 
-Serial - Decrypted Duration  0.1489
+Serial - Decrypted Duration  0.1468
 
 Legit solution: 1
 
 Text3
-OpenMP (20 Threads) - Encrypted Duration  0.3605
+OpenMP (20 Threads) - Encrypted Duration  0.3655
 
-OpenMP (20 Threads) - Decrypted Duration  0.2526
+OpenMP (20 Threads) - Decrypted Duration  0.2585
 
 Legit solution: 1
 Number of threads: 20
@@ -94,11 +94,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 4096
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-42.3711
-4.58523
+45.4725
+4.56954
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-4.57743
+4.58779
 
 Legit solution: 1
 
@@ -106,24 +106,24 @@ Text3
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0105472 (ms).
+Done Counter Mode in: 0.0091136 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.008192 (ms).
+Done Counter Mode in: 0.0083968 (ms).
 
 Legit solution: 1
 
 Text4
-Serial - Encrypted Duration  2.4211
+Serial - Encrypted Duration  2.5671
 
-Serial - Decrypted Duration  2.5443
+Serial - Decrypted Duration  2.5356
 
 Legit solution: 1
 
 Text4
-OpenMP (20 Threads) - Encrypted Duration  1.4692
+OpenMP (20 Threads) - Encrypted Duration  1.1531
 
-OpenMP (20 Threads) - Decrypted Duration  1.3335
+OpenMP (20 Threads) - Decrypted Duration  1.1424
 
 Legit solution: 1
 Number of threads: 20
@@ -132,11 +132,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 65536
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-43.4816
-4.60875
+45.1685
+4.57615
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-4.59201
+4.57807
 
 Legit solution: 1
 
@@ -144,24 +144,24 @@ Text4
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0329728 (ms).
+Done Counter Mode in: 0.0333824 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0314368 (ms).
+Done Counter Mode in: 0.0320512 (ms).
 
 Legit solution: 1
 
 Text41
-Serial - Encrypted Duration  9.5521
+Serial - Encrypted Duration  9.8384
 
-Serial - Decrypted Duration  9.7232
+Serial - Decrypted Duration  9.3772
 
 Legit solution: 1
 
 Text41
-OpenMP (20 Threads) - Encrypted Duration  3.2233
+OpenMP (20 Threads) - Encrypted Duration  3.8231
 
-OpenMP (20 Threads) - Decrypted Duration  3.2632
+OpenMP (20 Threads) - Decrypted Duration  3.6591
 
 Legit solution: 1
 Number of threads: 20
@@ -170,11 +170,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 262144
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-47.4637
-5.75512
+46.1694
+5.7379
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-5.80087
+5.76724
 
 Legit solution: 1
 
@@ -185,21 +185,21 @@ Starting AES CUDA - COUNTER MODE KERNEL
 Done Counter Mode in: 0.0330752 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0335872 (ms).
+Done Counter Mode in: 0.0359424 (ms).
 
 Legit solution: 1
 
 Text5
-Serial - Encrypted Duration  39.7991
+Serial - Encrypted Duration  39.0484
 
-Serial - Decrypted Duration  39.2821
+Serial - Decrypted Duration  38.7315
 
 Legit solution: 1
 
 Text5
-OpenMP (20 Threads) - Encrypted Duration  12.0124
+OpenMP (20 Threads) - Encrypted Duration  10.7469
 
-OpenMP (20 Threads) - Decrypted Duration  11.7709
+OpenMP (20 Threads) - Decrypted Duration  12.358
 
 Legit solution: 1
 Number of threads: 20
@@ -208,11 +208,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 1048576
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-45.4892
-7.24975
+49.7767
+7.25199
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.29887
+7.40762
 
 Legit solution: 1
 
@@ -220,24 +220,24 @@ Text5
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0427008 (ms).
+Done Counter Mode in: 0.0433152 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.040448 (ms).
+Done Counter Mode in: 0.0406528 (ms).
 
 Legit solution: 1
 
 Text51
-Serial - Encrypted Duration  155.937
+Serial - Encrypted Duration  153.579
 
-Serial - Decrypted Duration  155.291
+Serial - Decrypted Duration  154.952
 
 Legit solution: 1
 
 Text51
-OpenMP (20 Threads) - Encrypted Duration  43.5468
+OpenMP (20 Threads) - Encrypted Duration  44.1085
 
-OpenMP (20 Threads) - Decrypted Duration  43.8454
+OpenMP (20 Threads) - Decrypted Duration  45.2762
 
 Legit solution: 1
 Number of threads: 20
@@ -246,11 +246,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-54.2201
-12.9282
+54.4833
+12.0329
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-12.5034
+13.6312
 
 Legit solution: 1
 
@@ -258,24 +258,24 @@ Text51
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.130765 (ms).
+Done Counter Mode in: 0.130253 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.129741 (ms).
+Done Counter Mode in: 0.130355 (ms).
 
 Legit solution: 1
 
 Text6
-Serial - Encrypted Duration  612.324
+Serial - Encrypted Duration  615.491
 
-Serial - Decrypted Duration  612.283
+Serial - Decrypted Duration  625.602
 
 Legit solution: 1
 
 Text6
-OpenMP (20 Threads) - Encrypted Duration  166.963
+OpenMP (20 Threads) - Encrypted Duration  166.158
 
-OpenMP (20 Threads) - Decrypted Duration  173.558
+OpenMP (20 Threads) - Decrypted Duration  173.303
 
 Legit solution: 1
 Number of threads: 20
@@ -284,11 +284,11 @@ Starting AES CUDA - COUNTER MODE
 filesize: 16777216
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-72.9956
-31.1237
+73.2075
+31.613
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-32.8418
+33.191
 
 Legit solution: 1
 
@@ -296,999 +296,1037 @@ Text6
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-Done Counter Mode in: 0.396698 (ms).
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
 Done Counter Mode in: 0.397722 (ms).
 
-Legit solution: 1
-
-Text5
-OpenMP (4 Threads) - Encrypted Duration  10.8446
-
-OpenMP (4 Threads) - Decrypted Duration  12.9492
-
-Legit solution: 1
-==238283== NVPROF is profiling process 238283, command: ./AES_OMPG 5 4
-Number of threads: 4
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-58.5282
-7.35185
-
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.37028
+Done Counter Mode in: 0.399155 (ms).
 
 Legit solution: 1
-==238283== Profiling application: ./AES_OMPG 5 4
-==238283== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.79%  39.030ms        30  1.3010ms  1.2883ms  1.3146ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.21%  5.6232ms       120  46.860us  1.6310us  96.863us  [CUDA memcpy HtoD]
-                   11.00%  5.5198ms        60  91.996us  89.471us  94.880us  [CUDA memcpy DtoH]
-      API calls:   36.70%  273.45ms        24  11.394ms  7.4585ms  24.909ms  cuLinkAddData
-                   27.15%  202.28ms         1  202.28ms  202.28ms  202.28ms  cuCtxCreate
-                    9.87%  73.579ms        90  817.54us  246.57us  1.0742ms  cuMemAlloc
-                    9.08%  67.633ms       120  563.61us  8.9120us  1.3411ms  cuMemcpyHtoD
-                    5.26%  39.198ms        30  1.3066ms  1.2934ms  1.3194ms  cuCtxSynchronize
-                    5.22%  38.867ms         1  38.867ms  38.867ms  38.867ms  cuCtxDestroy
-                    2.80%  20.842ms        60  347.36us  282.25us  1.3634ms  cuMemcpyDtoH
-                    2.10%  15.678ms        90  174.20us  75.427us  363.55us  cuMemFree
-                    1.03%  7.6708ms         1  7.6708ms  7.6708ms  7.6708ms  cuModuleLoadData
-                    0.43%  3.1744ms        30  105.81us  14.190us  2.6390ms  cuLaunchKernel
-                    0.31%  2.2954ms         1  2.2954ms  2.2954ms  2.2954ms  cuLinkComplete
-                    0.02%  170.86us       240     711ns     369ns  1.6640us  cuMemGetAddressRange
-                    0.01%  106.77us        16  6.6730us     172ns  101.71us  cuDeviceGetAttribute
-                    0.01%  91.967us       303     303ns     153ns  4.2000us  cuCtxGetDevice
-                    0.01%  68.669us         1  68.669us  68.669us  68.669us  cuLinkCreate
-                    0.00%  14.742us         1  14.742us  14.742us  14.742us  cuDeviceGetName
-                    0.00%  8.5550us         1  8.5550us  8.5550us  8.5550us  cuDeviceGetPCIBusId
-                    0.00%  2.7600us         1  2.7600us  2.7600us  2.7600us  cuLinkDestroy
-                    0.00%  2.5500us         4     637ns     175ns  1.9270us  cuDeviceGetCount
-                    0.00%  2.3460us         1  2.3460us  2.3460us  2.3460us  cuInit
-                    0.00%  2.0770us         1  2.0770us  2.0770us  2.0770us  cuModuleGetFunction
-                    0.00%  1.1800us         2     590ns     281ns     899ns  cuModuleGetGlobal
-                    0.00%  1.0200us         2     510ns     400ns     620ns  cuFuncGetAttribute
-                    0.00%     822ns         2     411ns     166ns     656ns  cuDeviceGet
-                    0.00%     396ns         1     396ns     396ns     396ns  cuCtxGetCurrent
-                    0.00%     168ns         1     168ns     168ns     168ns  cuDriverGetVersion
 
-Text5
-OpenMP (8 Threads) - Encrypted Duration  39.305
+Text61
+Serial - Encrypted Duration  2469.58
 
-OpenMP (8 Threads) - Decrypted Duration  39.4504
+Serial - Decrypted Duration  2484.85
 
 Legit solution: 1
-==238772== NVPROF is profiling process 238772, command: ./AES_OMPG 5 8
-Number of threads: 8
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
 
-Starting AES CUDA - COUNTER MODE KERNEL 
-54.7211
-7.21536
+Text61
+OpenMP (20 Threads) - Encrypted Duration  647.963
 
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.39832
+OpenMP (20 Threads) - Decrypted Duration  685.772
 
 Legit solution: 1
-==238772== Profiling application: ./AES_OMPG 5 8
-==238772== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.53%  39.095ms        30  1.3032ms  1.2851ms  1.3226ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.45%  5.6991ms       120  47.492us  1.6320us  103.33us  [CUDA memcpy HtoD]
-                   10.02%  4.9884ms        60  83.140us  81.055us  91.744us  [CUDA memcpy DtoH]
-      API calls:   31.58%  222.69ms        24  9.2788ms  7.2222ms  15.730ms  cuLinkAddData
-                   30.37%  214.15ms         1  214.15ms  214.15ms  214.15ms  cuCtxCreate
-                   10.30%  72.615ms        90  806.84us  124.53us  1.0766ms  cuMemAlloc
-                    9.61%  67.737ms       120  564.48us  8.0110us  1.3877ms  cuMemcpyHtoD
-                    5.57%  39.243ms        30  1.3081ms  1.2905ms  1.3278ms  cuCtxSynchronize
-                    5.43%  38.291ms         1  38.291ms  38.291ms  38.291ms  cuCtxDestroy
-                    2.80%  19.764ms        60  329.40us  265.99us  1.3846ms  cuMemcpyDtoH
-                    2.25%  15.846ms        90  176.07us  70.407us  621.32us  cuMemFree
-                    1.24%  8.7752ms         1  8.7752ms  8.7752ms  8.7752ms  cuModuleLoadData
-                    0.47%  3.3040ms        30  110.13us  14.977us  2.7886ms  cuLaunchKernel
-                    0.32%  2.2724ms         1  2.2724ms  2.2724ms  2.2724ms  cuLinkComplete
-                    0.02%  166.61us       240     694ns     356ns  16.661us  cuMemGetAddressRange
-                    0.02%  111.77us        16  6.9850us     164ns  106.05us  cuDeviceGetAttribute
-                    0.01%  78.858us       303     260ns     147ns     770ns  cuCtxGetDevice
-                    0.01%  57.668us         1  57.668us  57.668us  57.668us  cuLinkCreate
-                    0.00%  15.320us         1  15.320us  15.320us  15.320us  cuDeviceGetName
-                    0.00%  8.6470us         1  8.6470us  8.6470us  8.6470us  cuDeviceGetPCIBusId
-                    0.00%  8.1280us         1  8.1280us  8.1280us  8.1280us  cuModuleGetFunction
-                    0.00%  4.4940us         4  1.1230us     227ns  3.6760us  cuDeviceGetCount
-                    0.00%  4.3070us         1  4.3070us  4.3070us  4.3070us  cuLinkDestroy
-                    0.00%  2.6780us         1  2.6780us  2.6780us  2.6780us  cuInit
-                    0.00%  1.3150us         2     657ns     439ns     876ns  cuFuncGetAttribute
-                    0.00%  1.2690us         2     634ns     205ns  1.0640us  cuDeviceGet
-                    0.00%  1.1780us         2     589ns     256ns     922ns  cuModuleGetGlobal
-                    0.00%     509ns         1     509ns     509ns     509ns  cuCtxGetCurrent
-                    0.00%     207ns         1     207ns     207ns     207ns  cuDriverGetVersion
-
-Text5
-OpenMP (12 Threads) - Encrypted Duration  13.6384
-
-OpenMP (12 Threads) - Decrypted Duration  13.7116
-
-Legit solution: 1
-==239118== NVPROF is profiling process 239118, command: ./AES_OMPG 5 12
-Number of threads: 12
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-50.691
-7.33665
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.35022
-
-Legit solution: 1
-==239118== Profiling application: ./AES_OMPG 5 12
-==239118== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.49%  39.136ms        30  1.3045ms  1.2887ms  1.3270ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.43%  5.7006ms       120  47.504us  1.6320us  100.26us  [CUDA memcpy HtoD]
-                   10.07%  5.0230ms        60  83.717us  81.599us  93.504us  [CUDA memcpy DtoH]
-      API calls:   31.35%  208.65ms         1  208.65ms  208.65ms  208.65ms  cuCtxCreate
-                   28.19%  187.61ms        24  7.8173ms  7.1713ms  10.533ms  cuLinkAddData
-                   10.95%  72.881ms        90  809.79us  137.49us  1.0716ms  cuMemAlloc
-                   10.18%  67.758ms       120  564.65us  8.0770us  1.3892ms  cuMemcpyHtoD
-                    5.90%  39.274ms        30  1.3091ms  1.2947ms  1.3269ms  cuCtxSynchronize
-                    5.84%  38.876ms         1  38.876ms  38.876ms  38.876ms  cuCtxDestroy
-                    3.05%  20.329ms        60  338.82us  271.41us  1.4366ms  cuMemcpyDtoH
-                    2.31%  15.375ms        90  170.84us  76.515us  338.79us  cuMemFree
-                    1.31%  8.7413ms         1  8.7413ms  8.7413ms  8.7413ms  cuModuleLoadData
-                    0.51%  3.3690ms        30  112.30us  13.767us  2.7748ms  cuLaunchKernel
-                    0.34%  2.2526ms         1  2.2526ms  2.2526ms  2.2526ms  cuLinkComplete
-                    0.02%  160.26us       240     667ns     332ns  1.8480us  cuMemGetAddressRange
-                    0.02%  112.13us        16  7.0070us     172ns  107.32us  cuDeviceGetAttribute
-                    0.01%  87.752us       303     289ns     153ns     748ns  cuCtxGetDevice
-                    0.01%  48.318us         1  48.318us  48.318us  48.318us  cuLinkCreate
-                    0.00%  14.738us         1  14.738us  14.738us  14.738us  cuDeviceGetName
-                    0.00%  9.1120us         1  9.1120us  9.1120us  9.1120us  cuModuleGetFunction
-                    0.00%  8.4160us         1  8.4160us  8.4160us  8.4160us  cuDeviceGetPCIBusId
-                    0.00%  2.9260us         1  2.9260us  2.9260us  2.9260us  cuLinkDestroy
-                    0.00%  2.8730us         4     718ns     162ns  2.2520us  cuDeviceGetCount
-                    0.00%  2.1150us         1  2.1150us  2.1150us  2.1150us  cuInit
-                    0.00%  1.2140us         2     607ns     402ns     812ns  cuFuncGetAttribute
-                    0.00%  1.2090us         2     604ns     239ns     970ns  cuModuleGetGlobal
-                    0.00%     686ns         2     343ns     157ns     529ns  cuDeviceGet
-                    0.00%     537ns         1     537ns     537ns     537ns  cuCtxGetCurrent
-                    0.00%     170ns         1     170ns     170ns     170ns  cuDriverGetVersion
-
-Text5
-OpenMP (16 Threads) - Encrypted Duration  13.8526
-
-OpenMP (16 Threads) - Decrypted Duration  13.6639
-
-Legit solution: 1
-==239434== NVPROF is profiling process 239434, command: ./AES_OMPG 5 16
-Number of threads: 16
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-52.2099
-7.21326
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.2742
-
-Legit solution: 1
-==239434== Profiling application: ./AES_OMPG 5 16
-==239434== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.55%  39.065ms        30  1.3022ms  1.2873ms  1.3176ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.53%  5.7337ms       120  47.780us  1.6310us  105.12us  [CUDA memcpy HtoD]
-                    9.92%  4.9354ms        60  82.255us  80.735us  84.511us  [CUDA memcpy DtoH]
-      API calls:   31.35%  212.26ms         1  212.26ms  212.26ms  212.26ms  cuCtxCreate
-                   28.49%  192.88ms        24  8.0365ms  7.3221ms  11.057ms  cuLinkAddData
-                   10.76%  72.880ms        90  809.78us  176.12us  1.0732ms  cuMemAlloc
-                   10.03%  67.894ms       120  565.78us  8.4240us  1.3676ms  cuMemcpyHtoD
-                    5.79%  39.194ms        30  1.3065ms  1.2917ms  1.3219ms  cuCtxSynchronize
-                    5.69%  38.546ms         1  38.546ms  38.546ms  38.546ms  cuCtxDestroy
-                    2.91%  19.718ms        60  328.63us  260.29us  1.6222ms  cuMemcpyDtoH
-                    2.28%  15.406ms        90  171.18us  72.520us  444.33us  cuMemFree
-                    1.46%  9.9171ms         1  9.9171ms  9.9171ms  9.9171ms  cuModuleLoadData
-                    0.65%  4.4025ms        30  146.75us  12.222us  3.9538ms  cuLaunchKernel
-                    0.53%  3.5729ms         1  3.5729ms  3.5729ms  3.5729ms  cuLinkComplete
-                    0.02%  155.14us       240     646ns     332ns  5.8930us  cuMemGetAddressRange
-                    0.02%  110.51us        16  6.9060us     167ns  103.20us  cuDeviceGetAttribute
-                    0.01%  77.336us       303     255ns     143ns     721ns  cuCtxGetDevice
-                    0.01%  50.265us         1  50.265us  50.265us  50.265us  cuLinkCreate
-                    0.00%  14.535us         1  14.535us  14.535us  14.535us  cuDeviceGetName
-                    0.00%  11.500us         1  11.500us  11.500us  11.500us  cuModuleGetFunction
-                    0.00%  7.9440us         1  7.9440us  7.9440us  7.9440us  cuDeviceGetPCIBusId
-                    0.00%  4.0760us         4  1.0190us     205ns  2.8470us  cuDeviceGetCount
-                    0.00%  3.8330us         1  3.8330us  3.8330us  3.8330us  cuLinkDestroy
-                    0.00%  2.4040us         1  2.4040us  2.4040us  2.4040us  cuInit
-                    0.00%  1.6240us         2     812ns     651ns     973ns  cuFuncGetAttribute
-                    0.00%  1.6110us         2     805ns     460ns  1.1510us  cuModuleGetGlobal
-                    0.00%  1.5970us         2     798ns     311ns  1.2860us  cuDeviceGet
-                    0.00%     411ns         1     411ns     411ns     411ns  cuCtxGetCurrent
-                    0.00%     182ns         1     182ns     182ns     182ns  cuDriverGetVersion
-
-Text5
-OpenMP (20 Threads) - Encrypted Duration  11.9374
-
-OpenMP (20 Threads) - Decrypted Duration  13.7336
-
-Legit solution: 1
-==239752== NVPROF is profiling process 239752, command: ./AES_OMPG 5 20
 Number of threads: 20
-Text5
+Text61
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 67108864
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-50.2457
-7.24092
+161.778
+108.147
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.34984
+114.797
 
 Legit solution: 1
-==239752== Profiling application: ./AES_OMPG 5 20
-==239752== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.65%  39.161ms        30  1.3054ms  1.2919ms  1.3197ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.36%  5.6557ms       120  47.131us  1.6310us  113.73us  [CUDA memcpy HtoD]
-                    9.99%  4.9732ms        60  82.886us  81.375us  89.599us  [CUDA memcpy DtoH]
-      API calls:   30.93%  203.85ms         1  203.85ms  203.85ms  203.85ms  cuCtxCreate
-                   28.27%  186.33ms        24  7.7637ms  7.0277ms  10.306ms  cuLinkAddData
-                   11.08%  73.057ms        90  811.75us  126.07us  1.0735ms  cuMemAlloc
-                   10.26%  67.641ms       120  563.68us  7.8150us  1.3780ms  cuMemcpyHtoD
-                    5.96%  39.302ms        30  1.3101ms  1.2965ms  1.3244ms  cuCtxSynchronize
-                    5.87%  38.683ms         1  38.683ms  38.683ms  38.683ms  cuCtxDestroy
-                    3.01%  19.843ms        60  330.72us  264.57us  1.4518ms  cuMemcpyDtoH
-                    2.35%  15.517ms        90  172.42us  71.535us  378.47us  cuMemFree
-                    1.33%  8.7638ms         1  8.7638ms  8.7638ms  8.7638ms  cuModuleLoadData
-                    0.50%  3.2692ms        30  108.97us  14.000us  2.7994ms  cuLaunchKernel
-                    0.36%  2.3565ms         1  2.3565ms  2.3565ms  2.3565ms  cuLinkComplete
-                    0.03%  184.49us       240     768ns     396ns  18.174us  cuMemGetAddressRange
-                    0.02%  129.63us        16  8.1020us     164ns  123.82us  cuDeviceGetAttribute
-                    0.01%  79.909us       303     263ns     139ns     698ns  cuCtxGetDevice
-                    0.01%  52.171us         1  52.171us  52.171us  52.171us  cuLinkCreate
-                    0.00%  13.562us         1  13.562us  13.562us  13.562us  cuDeviceGetName
-                    0.00%  8.1390us         1  8.1390us  8.1390us  8.1390us  cuDeviceGetPCIBusId
-                    0.00%  4.2380us         4  1.0590us     303ns  2.9420us  cuDeviceGetCount
-                    0.00%  3.1450us         1  3.1450us  3.1450us  3.1450us  cuLinkDestroy
-                    0.00%  2.6720us         1  2.6720us  2.6720us  2.6720us  cuInit
-                    0.00%  1.9150us         1  1.9150us  1.9150us  1.9150us  cuModuleGetFunction
-                    0.00%  1.4680us         2     734ns     255ns  1.2130us  cuModuleGetGlobal
-                    0.00%  1.3770us         2     688ns     356ns  1.0210us  cuDeviceGet
-                    0.00%     910ns         2     455ns     368ns     542ns  cuFuncGetAttribute
-                    0.00%     603ns         1     603ns     603ns     603ns  cuCtxGetCurrent
-                    0.00%     332ns         1     332ns     332ns     332ns  cuDriverGetVersion
 
-Text5
-OpenMP (24 Threads) - Encrypted Duration  12.0183
-
-OpenMP (24 Threads) - Decrypted Duration  13.58
-
-Legit solution: 1
-==240098== NVPROF is profiling process 240098, command: ./AES_OMPG 5 24
-Number of threads: 24
-Text5
+Text61
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-52.1327
-7.18605
+Done Counter Mode in: 1.4379 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.28417
+Done Counter Mode in: 1.44886 (ms).
 
 Legit solution: 1
-==240098== Profiling application: ./AES_OMPG 5 24
-==240098== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.65%  39.121ms        30  1.3040ms  1.2877ms  1.3230ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.41%  5.6777ms       120  47.313us  1.6000us  110.50us  [CUDA memcpy HtoD]
-                    9.93%  4.9412ms        60  82.354us  81.055us  88.064us  [CUDA memcpy DtoH]
-      API calls:   30.72%  208.48ms         1  208.48ms  208.48ms  208.48ms  cuCtxCreate
-                   29.86%  202.65ms        24  8.4437ms  7.0230ms  14.937ms  cuLinkAddData
-                   10.77%  73.113ms        90  812.37us  248.52us  1.0719ms  cuMemAlloc
-                    9.98%  67.753ms       120  564.61us  9.0410us  1.3530ms  cuMemcpyHtoD
-                    5.79%  39.267ms        30  1.3089ms  1.2926ms  1.3276ms  cuCtxSynchronize
-                    5.75%  39.037ms         1  39.037ms  39.037ms  39.037ms  cuCtxDestroy
-                    2.89%  19.628ms        60  327.13us  263.03us  1.7084ms  cuMemcpyDtoH
-                    2.22%  15.085ms        90  167.61us  69.740us  405.90us  cuMemFree
-                    1.13%  7.6943ms         1  7.6943ms  7.6943ms  7.6943ms  cuModuleLoadData
-                    0.46%  3.0899ms        30  103.00us  12.560us  2.6470ms  cuLaunchKernel
-                    0.35%  2.3743ms         1  2.3743ms  2.3743ms  2.3743ms  cuLinkComplete
-                    0.02%  143.85us        16  8.9900us     315ns  135.52us  cuDeviceGetAttribute
-                    0.02%  143.65us       240     598ns     312ns  1.4610us  cuMemGetAddressRange
-                    0.01%  86.355us       303     285ns     152ns  1.5290us  cuCtxGetDevice
-                    0.01%  78.603us         1  78.603us  78.603us  78.603us  cuLinkCreate
-                    0.00%  18.131us         1  18.131us  18.131us  18.131us  cuDeviceGetName
-                    0.00%  8.5600us         1  8.5600us  8.5600us  8.5600us  cuModuleGetFunction
-                    0.00%  8.2500us         1  8.2500us  8.2500us  8.2500us  cuDeviceGetPCIBusId
-                    0.00%  3.6540us         4     913ns     252ns  2.5480us  cuDeviceGetCount
-                    0.00%  3.0440us         1  3.0440us  3.0440us  3.0440us  cuLinkDestroy
-                    0.00%  2.8440us         1  2.8440us  2.8440us  2.8440us  cuInit
-                    0.00%  1.5400us         2     770ns     347ns  1.1930us  cuDeviceGet
-                    0.00%  1.2140us         2     607ns     432ns     782ns  cuFuncGetAttribute
-                    0.00%  1.2060us         2     603ns     254ns     952ns  cuModuleGetGlobal
-                    0.00%     577ns         1     577ns     577ns     577ns  cuCtxGetCurrent
-                    0.00%     293ns         1     293ns     293ns     293ns  cuDriverGetVersion
 
-Text5
-OpenMP (28 Threads) - Encrypted Duration  11.9819
+Text51
+OpenMP (4 Threads) - Encrypted Duration  45.3471
 
-OpenMP (28 Threads) - Decrypted Duration  14.0232
+OpenMP (4 Threads) - Decrypted Duration  55.0369
 
 Legit solution: 1
-==240432== NVPROF is profiling process 240432, command: ./AES_OMPG 5 28
-Number of threads: 28
-Text5
+==469804== NVPROF is profiling process 469804, command: ./AES_OMPG 51 4
+Number of threads: 4
+Text51
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-51.0876
-7.18315
+59.6631
+12.354
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.28473
+13.1456
 
 Legit solution: 1
-==240432== Profiling application: ./AES_OMPG 5 28
-==240432== Profiling result:
+==469804== Profiling application: ./AES_OMPG 51 4
+==469804== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.52%  39.133ms        30  1.3044ms  1.2918ms  1.3258ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.50%  5.7303ms       120  47.752us  1.6320us  108.86us  [CUDA memcpy HtoD]
-                    9.98%  4.9732ms        60  82.886us  81.599us  90.015us  [CUDA memcpy DtoH]
-      API calls:   30.72%  205.25ms         1  205.25ms  205.25ms  205.25ms  cuCtxCreate
-                   29.16%  194.85ms        24  8.1188ms  7.4586ms  10.381ms  cuLinkAddData
-                   10.89%  72.759ms        90  808.44us  161.90us  1.0795ms  cuMemAlloc
-                   10.18%  67.999ms       120  566.65us  7.7660us  1.3548ms  cuMemcpyHtoD
-                    5.88%  39.284ms        30  1.3095ms  1.2962ms  1.3255ms  cuCtxSynchronize
-                    5.73%  38.295ms         1  38.295ms  38.295ms  38.295ms  cuCtxDestroy
-                    2.90%  19.364ms        60  322.74us  265.84us  1.3459ms  cuMemcpyDtoH
-                    2.24%  14.959ms        90  166.21us  69.072us  366.54us  cuMemFree
-                    1.33%  8.9006ms         1  8.9006ms  8.9006ms  8.9006ms  cuModuleLoadData
-                    0.56%  3.7569ms        30  125.23us  12.788us  3.3093ms  cuLaunchKernel
-                    0.35%  2.3379ms         1  2.3379ms  2.3379ms  2.3379ms  cuLinkComplete
-                    0.02%  134.78us       240     561ns     329ns  1.5750us  cuMemGetAddressRange
-                    0.02%  111.62us        16  6.9760us     161ns  105.64us  cuDeviceGetAttribute
-                    0.01%  76.716us       303     253ns     138ns  5.2460us  cuCtxGetDevice
-                    0.01%  59.170us         1  59.170us  59.170us  59.170us  cuLinkCreate
-                    0.00%  14.407us         1  14.407us  14.407us  14.407us  cuDeviceGetName
-                    0.00%  8.2910us         1  8.2910us  8.2910us  8.2910us  cuDeviceGetPCIBusId
-                    0.00%  3.9770us         1  3.9770us  3.9770us  3.9770us  cuLinkDestroy
-                    0.00%  3.0280us         1  3.0280us  3.0280us  3.0280us  cuModuleGetFunction
-                    0.00%  2.9000us         4     725ns     153ns  2.2320us  cuDeviceGetCount
-                    0.00%  2.2480us         1  2.2480us  2.2480us  2.2480us  cuInit
-                    0.00%  1.5040us         2     752ns     410ns  1.0940us  cuFuncGetAttribute
-                    0.00%  1.3380us         2     669ns     406ns     932ns  cuModuleGetGlobal
-                    0.00%     898ns         2     449ns     165ns     733ns  cuDeviceGet
-                    0.00%     409ns         1     409ns     409ns     409ns  cuCtxGetCurrent
-                    0.00%     183ns         1     183ns     183ns     183ns  cuDriverGetVersion
-
-Text5
-OpenMP (32 Threads) - Encrypted Duration  12.1041
-
-OpenMP (32 Threads) - Decrypted Duration  13.7153
-
-Legit solution: 1
-==240774== NVPROF is profiling process 240774, command: ./AES_OMPG 5 32
-Number of threads: 32
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-50.5154
-7.17441
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.32062
-
-Legit solution: 1
-==240774== Profiling application: ./AES_OMPG 5 32
-==240774== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.33%  39.166ms        30  1.3055ms  1.2918ms  1.3207ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.64%  5.8197ms       120  48.497us  1.6000us  105.82us  [CUDA memcpy HtoD]
-                   10.03%  5.0139ms        60  83.564us  81.408us  97.887us  [CUDA memcpy DtoH]
-      API calls:   30.81%  204.34ms         1  204.34ms  204.34ms  204.34ms  cuCtxCreate
-                   29.07%  192.79ms        24  8.0329ms  7.2526ms  10.794ms  cuLinkAddData
-                   10.99%  72.901ms        90  810.01us  253.10us  1.0749ms  cuMemAlloc
-                   10.23%  67.831ms       120  565.26us  8.7640us  1.3932ms  cuMemcpyHtoD
-                    5.93%  39.321ms        30  1.3107ms  1.2967ms  1.3265ms  cuCtxSynchronize
-                    5.75%  38.123ms         1  38.123ms  38.123ms  38.123ms  cuCtxDestroy
-                    2.91%  19.315ms        60  321.92us  262.52us  1.3449ms  cuMemcpyDtoH
-                    2.26%  14.958ms        90  166.20us  69.541us  347.74us  cuMemFree
-                    1.16%  7.7107ms         1  7.7107ms  7.7107ms  7.7107ms  cuModuleLoadData
-                    0.46%  3.0761ms        30  102.54us  13.271us  2.6320ms  cuLaunchKernel
-                    0.35%  2.3174ms         1  2.3174ms  2.3174ms  2.3174ms  cuLinkComplete
-                    0.02%  147.67us       240     615ns     332ns  1.3710us  cuMemGetAddressRange
-                    0.02%  133.26us        16  8.3280us     168ns  127.83us  cuDeviceGetAttribute
-                    0.01%  73.861us       303     243ns     151ns     733ns  cuCtxGetDevice
-                    0.01%  53.593us         1  53.593us  53.593us  53.593us  cuLinkCreate
-                    0.00%  16.666us         1  16.666us  16.666us  16.666us  cuDeviceGetName
-                    0.00%  8.2660us         1  8.2660us  8.2660us  8.2660us  cuModuleGetFunction
-                    0.00%  7.4930us         1  7.4930us  7.4930us  7.4930us  cuDeviceGetPCIBusId
-                    0.00%  2.8990us         1  2.8990us  2.8990us  2.8990us  cuLinkDestroy
-                    0.00%  2.6980us         4     674ns     162ns  2.1090us  cuDeviceGetCount
-                    0.00%  2.1520us         1  2.1520us  2.1520us  2.1520us  cuInit
-                    0.00%  1.1350us         2     567ns     527ns     608ns  cuFuncGetAttribute
-                    0.00%  1.0060us         2     503ns     251ns     755ns  cuModuleGetGlobal
-                    0.00%     838ns         2     419ns     159ns     679ns  cuDeviceGet
-                    0.00%     457ns         1     457ns     457ns     457ns  cuCtxGetCurrent
-                    0.00%     167ns         1     167ns     167ns     167ns  cuDriverGetVersion
-
-Text5
-OpenMP (40 Threads) - Encrypted Duration  11.1537
-
-OpenMP (40 Threads) - Decrypted Duration  12.2968
-
-Legit solution: 1
-==241128== NVPROF is profiling process 241128, command: ./AES_OMPG 5 40
-Number of threads: 40
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-52.1208
-7.19454
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.3835
-
-Legit solution: 1
-==241128== Profiling application: ./AES_OMPG 5 40
-==241128== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.11%  39.078ms        30  1.3026ms  1.2930ms  1.3153ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.74%  5.8726ms       120  48.938us  1.6320us  107.23us  [CUDA memcpy HtoD]
-                   10.15%  5.0761ms        60  84.600us  82.623us  91.903us  [CUDA memcpy DtoH]
-      API calls:   30.33%  206.33ms        24  8.5970ms  7.5578ms  12.110ms  cuLinkAddData
-                   30.30%  206.17ms         1  206.17ms  206.17ms  206.17ms  cuCtxCreate
-                   10.69%  72.764ms        90  808.48us  173.87us  1.0767ms  cuMemAlloc
-                    9.98%  67.926ms       120  566.05us  8.6110us  1.3822ms  cuMemcpyHtoD
-                    5.76%  39.213ms        30  1.3071ms  1.2958ms  1.3213ms  cuCtxSynchronize
-                    5.62%  38.264ms         1  38.264ms  38.264ms  38.264ms  cuCtxDestroy
-                    2.93%  19.962ms        60  332.71us  270.11us  1.3696ms  cuMemcpyDtoH
-                    2.20%  14.981ms        90  166.46us  69.623us  333.03us  cuMemFree
-                    1.30%  8.8613ms         1  8.8613ms  8.8613ms  8.8613ms  cuModuleLoadData
-                    0.45%  3.0708ms        30  102.36us  13.683us  2.6229ms  cuLaunchKernel
-                    0.35%  2.3881ms         1  2.3881ms  2.3881ms  2.3881ms  cuLinkComplete
-                    0.02%  142.25us       240     592ns     323ns  1.4160us  cuMemGetAddressRange
-                    0.02%  119.67us        16  7.4790us     168ns  114.38us  cuDeviceGetAttribute
-                    0.01%  97.225us       303     320ns     151ns  22.308us  cuCtxGetDevice
-                    0.01%  52.281us         1  52.281us  52.281us  52.281us  cuLinkCreate
-                    0.00%  14.509us         1  14.509us  14.509us  14.509us  cuDeviceGetName
-                    0.00%  7.4340us         1  7.4340us  7.4340us  7.4340us  cuDeviceGetPCIBusId
-                    0.00%  3.6120us         1  3.6120us  3.6120us  3.6120us  cuLinkDestroy
-                    0.00%  2.2230us         1  2.2230us  2.2230us  2.2230us  cuModuleGetFunction
-                    0.00%  2.1130us         4     528ns     136ns  1.5360us  cuDeviceGetCount
-                    0.00%  2.0540us         1  2.0540us  2.0540us  2.0540us  cuInit
-                    0.00%  1.4490us         2     724ns     335ns  1.1140us  cuFuncGetAttribute
-                    0.00%  1.1060us         2     553ns     250ns     856ns  cuModuleGetGlobal
-                    0.00%     648ns         2     324ns     148ns     500ns  cuDeviceGet
+ GPU activities:   48.12%  102.91ms        30  3.4302ms  3.1919ms  3.6946ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.07%  66.447ms       120  553.73us  1.6320us  1.4550ms  [CUDA memcpy HtoD]
+                   20.81%  44.495ms        60  741.58us  602.56us  2.6626ms  [CUDA memcpy DtoH]
+      API calls:   25.29%  218.61ms         1  218.61ms  218.61ms  218.61ms  cuCtxCreate
+                   23.36%  201.91ms        24  8.4130ms  7.1021ms  11.559ms  cuLinkAddData
+                   14.81%  127.96ms       120  1.0663ms  9.1220us  2.7264ms  cuMemcpyHtoD
+                   11.93%  103.13ms        30  3.4376ms  3.1970ms  3.6937ms  cuCtxSynchronize
+                    8.42%  72.794ms        60  1.2132ms  933.63us  4.9826ms  cuMemcpyDtoH
+                    5.78%  49.994ms        90  555.48us  235.50us  1.1311ms  cuMemAlloc
+                    4.55%  39.299ms         1  39.299ms  39.299ms  39.299ms  cuCtxDestroy
+                    4.04%  34.958ms        90  388.42us  95.362us  5.4452ms  cuMemFree
+                    1.04%  8.9540ms         1  8.9540ms  8.9540ms  8.9540ms  cuModuleLoadData
+                    0.42%  3.6576ms        30  121.92us  22.954us  2.7334ms  cuLaunchKernel
+                    0.27%  2.3704ms         1  2.3704ms  2.3704ms  2.3704ms  cuLinkComplete
+                    0.03%  294.28us       240  1.2260us     344ns  13.563us  cuMemGetAddressRange
+                    0.01%  124.69us       303     411ns     139ns  18.792us  cuCtxGetDevice
+                    0.01%  119.05us        16  7.4400us     173ns  112.46us  cuDeviceGetAttribute
+                    0.01%  71.207us         1  71.207us  71.207us  71.207us  cuLinkCreate
+                    0.00%  14.916us         1  14.916us  14.916us  14.916us  cuDeviceGetName
+                    0.00%  9.7160us         1  9.7160us  9.7160us  9.7160us  cuDeviceGetPCIBusId
+                    0.00%  6.0360us         1  6.0360us  6.0360us  6.0360us  cuLinkDestroy
+                    0.00%  3.7930us         4     948ns     174ns  3.1620us  cuDeviceGetCount
+                    0.00%  2.4840us         1  2.4840us  2.4840us  2.4840us  cuInit
+                    0.00%  2.0330us         1  2.0330us  2.0330us  2.0330us  cuModuleGetFunction
+                    0.00%  1.5060us         2     753ns     269ns  1.2370us  cuModuleGetGlobal
+                    0.00%  1.3640us         2     682ns     577ns     787ns  cuFuncGetAttribute
+                    0.00%     770ns         2     385ns     168ns     602ns  cuDeviceGet
                     0.00%     406ns         1     406ns     406ns     406ns  cuCtxGetCurrent
-                    0.00%     154ns         1     154ns     154ns     154ns  cuDriverGetVersion
-
-Text5
-OpenMP (50 Threads) - Encrypted Duration  11.3831
-
-OpenMP (50 Threads) - Decrypted Duration  12.1839
-
-Legit solution: 1
-==241500== NVPROF is profiling process 241500, command: ./AES_OMPG 5 50
-Number of threads: 50
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-52.2834
-7.18055
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.35255
-
-Legit solution: 1
-==241500== Profiling application: ./AES_OMPG 5 50
-==241500== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.00%  39.054ms        30  1.3018ms  1.2890ms  1.3234ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.85%  5.9350ms       120  49.457us  1.6320us  108.77us  [CUDA memcpy HtoD]
-                   10.14%  5.0785ms        60  84.641us  82.207us  98.335us  [CUDA memcpy DtoH]
-      API calls:   30.82%  210.19ms        24  8.7580ms  7.5185ms  16.071ms  cuLinkAddData
-                   29.88%  203.80ms         1  203.80ms  203.80ms  203.80ms  cuCtxCreate
-                   10.61%  72.367ms        90  804.08us  124.91us  1.0795ms  cuMemAlloc
-                    9.96%  67.938ms       120  566.15us  8.0920us  1.3719ms  cuMemcpyHtoD
-                    5.75%  39.189ms        30  1.3063ms  1.2939ms  1.3228ms  cuCtxSynchronize
-                    5.64%  38.495ms         1  38.495ms  38.495ms  38.495ms  cuCtxDestroy
-                    2.92%  19.922ms        60  332.03us  269.11us  1.3291ms  cuMemcpyDtoH
-                    2.26%  15.445ms        90  171.62us  69.805us  491.89us  cuMemFree
-                    1.29%  8.8071ms         1  8.8071ms  8.8071ms  8.8071ms  cuModuleLoadData
-                    0.45%  3.0810ms        30  102.70us  13.686us  2.5842ms  cuLaunchKernel
-                    0.35%  2.3726ms         1  2.3726ms  2.3726ms  2.3726ms  cuLinkComplete
-                    0.02%  145.73us       240     607ns     384ns  2.0400us  cuMemGetAddressRange
-                    0.02%  109.31us        16  6.8310us     166ns  104.17us  cuDeviceGetAttribute
-                    0.01%  74.178us       303     244ns     140ns     680ns  cuCtxGetDevice
-                    0.01%  57.641us         1  57.641us  57.641us  57.641us  cuLinkCreate
-                    0.00%  14.498us         1  14.498us  14.498us  14.498us  cuDeviceGetName
-                    0.00%  9.7730us         1  9.7730us  9.7730us  9.7730us  cuModuleGetFunction
-                    0.00%  8.0380us         1  8.0380us  8.0380us  8.0380us  cuDeviceGetPCIBusId
-                    0.00%  3.9030us         1  3.9030us  3.9030us  3.9030us  cuLinkDestroy
-                    0.00%  2.2920us         1  2.2920us  2.2920us  2.2920us  cuInit
-                    0.00%  2.0040us         4     501ns     189ns  1.3850us  cuDeviceGetCount
-                    0.00%  1.2600us         2     630ns     240ns  1.0200us  cuModuleGetGlobal
-                    0.00%  1.2430us         2     621ns     370ns     873ns  cuFuncGetAttribute
-                    0.00%     712ns         2     356ns     146ns     566ns  cuDeviceGet
-                    0.00%     389ns         1     389ns     389ns     389ns  cuCtxGetCurrent
-                    0.00%     171ns         1     171ns     171ns     171ns  cuDriverGetVersion
-
-Text5
-OpenMP (60 Threads) - Encrypted Duration  11.2545
-
-OpenMP (60 Threads) - Decrypted Duration  12.394
-
-Legit solution: 1
-==241892== NVPROF is profiling process 241892, command: ./AES_OMPG 5 60
-Number of threads: 60
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-51.3136
-7.2679
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.32987
-
-Legit solution: 1
-==241892== Profiling application: ./AES_OMPG 5 60
-==241892== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.19%  39.094ms        30  1.3031ms  1.2890ms  1.3188ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.69%  5.8468ms       120  48.723us  1.5990us  110.14us  [CUDA memcpy HtoD]
-                   10.12%  5.0600ms        60  84.333us  81.824us  90.304us  [CUDA memcpy DtoH]
-      API calls:   30.21%  203.15ms         1  203.15ms  203.15ms  203.15ms  cuCtxCreate
-                   30.04%  202.01ms        24  8.4172ms  7.2465ms  12.134ms  cuLinkAddData
-                   10.89%  73.208ms        90  813.42us  249.33us  1.0654ms  cuMemAlloc
-                   10.10%  67.882ms       120  565.68us  9.3780us  1.3545ms  cuMemcpyHtoD
-                    5.84%  39.241ms        30  1.3080ms  1.2943ms  1.3244ms  cuCtxSynchronize
-                    5.69%  38.254ms         1  38.254ms  38.254ms  38.254ms  cuCtxDestroy
-                    2.94%  19.753ms        60  329.22us  260.08us  1.3718ms  cuMemcpyDtoH
-                    2.30%  15.448ms        90  171.65us  74.143us  419.16us  cuMemFree
-                    1.15%  7.7174ms         1  7.7174ms  7.7174ms  7.7174ms  cuModuleLoadData
-                    0.45%  3.0434ms        30  101.45us  13.243us  2.5944ms  cuLaunchKernel
-                    0.33%  2.2260ms         1  2.2260ms  2.2260ms  2.2260ms  cuLinkComplete
-                    0.02%  159.71us       240     665ns     345ns  1.5800us  cuMemGetAddressRange
-                    0.02%  130.09us        16  8.1300us     162ns  124.82us  cuDeviceGetAttribute
-                    0.01%  85.785us       303     283ns     155ns  3.9450us  cuCtxGetDevice
-                    0.01%  49.478us         1  49.478us  49.478us  49.478us  cuLinkCreate
-                    0.00%  14.154us         1  14.154us  14.154us  14.154us  cuDeviceGetName
-                    0.00%  7.9460us         1  7.9460us  7.9460us  7.9460us  cuDeviceGetPCIBusId
-                    0.00%  7.9400us         1  7.9400us  7.9400us  7.9400us  cuModuleGetFunction
-                    0.00%  2.8150us         1  2.8150us  2.8150us  2.8150us  cuLinkDestroy
-                    0.00%  2.1690us         4     542ns     167ns  1.5500us  cuDeviceGetCount
-                    0.00%  2.1620us         1  2.1620us  2.1620us  2.1620us  cuInit
-                    0.00%  1.2010us         2     600ns     240ns     961ns  cuModuleGetGlobal
-                    0.00%  1.1490us         2     574ns     403ns     746ns  cuFuncGetAttribute
-                    0.00%     906ns         2     453ns     162ns     744ns  cuDeviceGet
-                    0.00%     394ns         1     394ns     394ns     394ns  cuCtxGetCurrent
                     0.00%     173ns         1     173ns     173ns     173ns  cuDriverGetVersion
 
-Text5
-OpenMP (80 Threads) - Encrypted Duration  11.8008
+Text51
+OpenMP (8 Threads) - Encrypted Duration  39.2297
 
-OpenMP (80 Threads) - Decrypted Duration  12.0492
+OpenMP (8 Threads) - Decrypted Duration  50.3251
 
 Legit solution: 1
-==242314== NVPROF is profiling process 242314, command: ./AES_OMPG 5 80
-Number of threads: 80
-Text5
+==470260== NVPROF is profiling process 470260, command: ./AES_OMPG 51 8
+Number of threads: 8
+Text51
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-51.7173
-7.16869
+56.5167
+12.0858
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.33142
+12.3602
 
 Legit solution: 1
-==242314== Profiling application: ./AES_OMPG 5 80
-==242314== Profiling result:
+==470260== Profiling application: ./AES_OMPG 51 8
+==470260== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   78.08%  39.092ms        30  1.3031ms  1.2794ms  1.3196ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.73%  5.8703ms       120  48.919us  1.6310us  106.85us  [CUDA memcpy HtoD]
-                   10.19%  5.1037ms        60  85.061us  82.528us  90.591us  [CUDA memcpy DtoH]
-      API calls:   30.15%  204.49ms         1  204.49ms  204.49ms  204.49ms  cuCtxCreate
-                   30.15%  204.46ms        24  8.5191ms  7.1228ms  12.981ms  cuLinkAddData
-                   10.70%  72.592ms        90  806.57us  141.49us  1.0663ms  cuMemAlloc
-                   10.02%  67.934ms       120  566.12us  8.1950us  1.3535ms  cuMemcpyHtoD
-                    5.94%  40.306ms         1  40.306ms  40.306ms  40.306ms  cuCtxDestroy
-                    5.78%  39.216ms        30  1.3072ms  1.2844ms  1.3278ms  cuCtxSynchronize
-                    2.86%  19.403ms        60  323.38us  263.02us  1.3978ms  cuMemcpyDtoH
-                    2.22%  15.049ms        90  167.21us  68.166us  408.67us  cuMemFree
-                    1.31%  8.8622ms         1  8.8622ms  8.8622ms  8.8622ms  cuModuleLoadData
-                    0.46%  3.1148ms        30  103.83us  12.655us  2.6118ms  cuLaunchKernel
-                    0.35%  2.3399ms         1  2.3399ms  2.3399ms  2.3399ms  cuLinkComplete
-                    0.02%  140.59us       240     585ns     363ns  5.3540us  cuMemGetAddressRange
-                    0.02%  111.05us        16  6.9400us     160ns  105.95us  cuDeviceGetAttribute
-                    0.01%  73.688us       303     243ns     135ns  1.1010us  cuCtxGetDevice
-                    0.01%  54.184us         1  54.184us  54.184us  54.184us  cuLinkCreate
-                    0.00%  15.735us         1  15.735us  15.735us  15.735us  cuDeviceGetName
-                    0.00%  7.7480us         1  7.7480us  7.7480us  7.7480us  cuDeviceGetPCIBusId
-                    0.00%  4.8450us         1  4.8450us  4.8450us  4.8450us  cuLinkDestroy
-                    0.00%  2.4020us         4     600ns     148ns  1.7750us  cuDeviceGetCount
-                    0.00%  2.0670us         1  2.0670us  2.0670us  2.0670us  cuModuleGetFunction
-                    0.00%  2.0160us         1  2.0160us  2.0160us  2.0160us  cuInit
-                    0.00%  1.4000us         2     700ns     235ns  1.1650us  cuModuleGetGlobal
-                    0.00%  1.3570us         2     678ns     404ns     953ns  cuFuncGetAttribute
-                    0.00%     624ns         2     312ns     157ns     467ns  cuDeviceGet
-                    0.00%     286ns         1     286ns     286ns     286ns  cuCtxGetCurrent
+ GPU activities:   47.50%  95.872ms        30  3.1957ms  3.1694ms  3.2156ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   30.99%  62.546ms       120  521.21us  1.6320us  1.4442ms  [CUDA memcpy HtoD]
+                   21.51%  43.405ms        60  723.41us  616.41us  2.7131ms  [CUDA memcpy DtoH]
+      API calls:   26.16%  215.32ms         1  215.32ms  215.32ms  215.32ms  cuCtxCreate
+                   23.11%  190.17ms        24  7.9237ms  7.2215ms  11.022ms  cuLinkAddData
+                   14.94%  122.97ms       120  1.0247ms  9.6690us  2.6011ms  cuMemcpyHtoD
+                   11.67%  96.022ms        30  3.2007ms  3.1742ms  3.2198ms  cuCtxSynchronize
+                    8.62%  70.899ms        60  1.1816ms  977.72us  5.0200ms  cuMemcpyDtoH
+                    6.04%  49.675ms        90  551.95us  238.38us  1.0955ms  cuMemAlloc
+                    4.89%  40.266ms         1  40.266ms  40.266ms  40.266ms  cuCtxDestroy
+                    2.83%  23.298ms        90  258.87us  97.283us  632.59us  cuMemFree
+                    0.95%  7.8400ms         1  7.8400ms  7.8400ms  7.8400ms  cuModuleLoadData
+                    0.42%  3.4515ms        30  115.05us  23.066us  2.6712ms  cuLaunchKernel
+                    0.29%  2.4101ms         1  2.4101ms  2.4101ms  2.4101ms  cuLinkComplete
+                    0.03%  259.39us       240  1.0800us     346ns  2.7950us  cuMemGetAddressRange
+                    0.01%  120.86us       303     398ns     156ns  15.172us  cuCtxGetDevice
+                    0.01%  118.61us        16  7.4130us     177ns  112.44us  cuDeviceGetAttribute
+                    0.01%  53.778us         1  53.778us  53.778us  53.778us  cuLinkCreate
+                    0.00%  15.585us         1  15.585us  15.585us  15.585us  cuDeviceGetName
+                    0.00%  10.775us         1  10.775us  10.775us  10.775us  cuModuleGetFunction
+                    0.00%  8.9790us         1  8.9790us  8.9790us  8.9790us  cuDeviceGetPCIBusId
+                    0.00%  8.0960us         4  2.0240us     158ns  7.4370us  cuDeviceGetCount
+                    0.00%  4.4160us         1  4.4160us  4.4160us  4.4160us  cuLinkDestroy
+                    0.00%  2.4570us         1  2.4570us  2.4570us  2.4570us  cuInit
+                    0.00%  1.6510us         2     825ns     606ns  1.0450us  cuFuncGetAttribute
+                    0.00%  1.3120us         2     656ns     168ns  1.1440us  cuDeviceGet
+                    0.00%  1.1250us         2     562ns     270ns     855ns  cuModuleGetGlobal
+                    0.00%     407ns         1     407ns     407ns     407ns  cuCtxGetCurrent
+                    0.00%     181ns         1     181ns     181ns     181ns  cuDriverGetVersion
+
+Text51
+OpenMP (12 Threads) - Encrypted Duration  44.9354
+
+OpenMP (12 Threads) - Decrypted Duration  46.1128
+
+Legit solution: 1
+==470762== NVPROF is profiling process 470762, command: ./AES_OMPG 51 12
+Number of threads: 12
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+57.7662
+11.9832
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.5085
+
+Legit solution: 1
+==470762== Profiling application: ./AES_OMPG 51 12
+==470762== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.44%  95.968ms        30  3.1989ms  3.1801ms  3.2189ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.25%  63.224ms       120  526.87us  1.6310us  1.4451ms  [CUDA memcpy HtoD]
+                   21.31%  43.100ms        60  718.33us  610.46us  2.6857ms  [CUDA memcpy DtoH]
+      API calls:   25.88%  216.07ms         1  216.07ms  216.07ms  216.07ms  cuCtxCreate
+                   24.19%  201.93ms        24  8.4136ms  7.1128ms  13.181ms  cuLinkAddData
+                   14.81%  123.62ms       120  1.0302ms  8.6420us  2.9138ms  cuMemcpyHtoD
+                   11.52%  96.188ms        30  3.2063ms  3.1850ms  3.2842ms  cuCtxSynchronize
+                    8.47%  70.737ms        60  1.1790ms  976.11us  5.0768ms  cuMemcpyDtoH
+                    5.89%  49.130ms        90  545.89us  170.42us  1.0812ms  cuMemAlloc
+                    4.61%  38.464ms         1  38.464ms  38.464ms  38.464ms  cuCtxDestroy
+                    2.78%  23.203ms        90  257.81us  99.909us  515.32us  cuMemFree
+                    1.07%  8.9219ms         1  8.9219ms  8.9219ms  8.9219ms  cuModuleLoadData
+                    0.41%  3.4641ms        30  115.47us  21.933us  2.7044ms  cuLaunchKernel
+                    0.29%  2.4264ms         1  2.4264ms  2.4264ms  2.4264ms  cuLinkComplete
+                    0.04%  321.44us       240  1.3390us     372ns  22.681us  cuMemGetAddressRange
+                    0.01%  114.45us        16  7.1530us     166ns  107.47us  cuDeviceGetAttribute
+                    0.01%  107.51us       303     354ns     147ns  4.3900us  cuCtxGetDevice
+                    0.01%  52.988us         1  52.988us  52.988us  52.988us  cuLinkCreate
+                    0.00%  14.710us         1  14.710us  14.710us  14.710us  cuDeviceGetName
+                    0.00%  8.1500us         1  8.1500us  8.1500us  8.1500us  cuDeviceGetPCIBusId
+                    0.00%  5.0620us         1  5.0620us  5.0620us  5.0620us  cuLinkDestroy
+                    0.00%  2.7550us         4     688ns     153ns  2.1230us  cuDeviceGetCount
+                    0.00%  2.4350us         1  2.4350us  2.4350us  2.4350us  cuInit
+                    0.00%  1.9980us         1  1.9980us  1.9980us  1.9980us  cuModuleGetFunction
+                    0.00%  1.7950us         2     897ns     846ns     949ns  cuFuncGetAttribute
+                    0.00%  1.1200us         2     560ns     263ns     857ns  cuModuleGetGlobal
+                    0.00%     729ns         2     364ns     194ns     535ns  cuDeviceGet
+                    0.00%     469ns         1     469ns     469ns     469ns  cuCtxGetCurrent
+                    0.00%     172ns         1     172ns     172ns     172ns  cuDriverGetVersion
+
+Text51
+OpenMP (16 Threads) - Encrypted Duration  44.2414
+
+OpenMP (16 Threads) - Decrypted Duration  45.4041
+
+Legit solution: 1
+==471250== NVPROF is profiling process 471250, command: ./AES_OMPG 51 16
+Number of threads: 16
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.3323
+11.956
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.347
+
+Legit solution: 1
+==471250== Profiling application: ./AES_OMPG 51 16
+==471250== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.44%  95.920ms        30  3.1973ms  3.1775ms  3.2199ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.25%  63.183ms       120  526.53us  1.6310us  1.4439ms  [CUDA memcpy HtoD]
+                   21.30%  43.068ms        60  717.80us  622.43us  2.6449ms  [CUDA memcpy DtoH]
+      API calls:   25.91%  212.48ms         1  212.48ms  212.48ms  212.48ms  cuCtxCreate
+                   23.23%  190.45ms        24  7.9356ms  6.9975ms  10.790ms  cuLinkAddData
+                   15.08%  123.65ms       120  1.0304ms  9.2340us  2.8901ms  cuMemcpyHtoD
+                   11.72%  96.078ms        30  3.2026ms  3.1815ms  3.2248ms  cuCtxSynchronize
+                    8.51%  69.747ms        60  1.1624ms  975.49us  4.9521ms  cuMemcpyDtoH
+                    6.00%  49.187ms        90  546.52us  168.27us  1.0645ms  cuMemAlloc
+                    4.90%  40.193ms         1  40.193ms  40.193ms  40.193ms  cuCtxDestroy
+                    2.80%  22.920ms        90  254.67us  95.595us  567.55us  cuMemFree
+                    1.07%  8.7850ms         1  8.7850ms  8.7850ms  8.7850ms  cuModuleLoadData
+                    0.42%  3.4677ms        30  115.59us  23.060us  2.7028ms  cuLaunchKernel
+                    0.30%  2.4751ms         1  2.4751ms  2.4751ms  2.4751ms  cuLinkComplete
+                    0.03%  233.88us       240     974ns     323ns  2.5490us  cuMemGetAddressRange
+                    0.01%  119.49us        16  7.4670us     175ns  113.00us  cuDeviceGetAttribute
+                    0.01%  91.146us       303     300ns     158ns     952ns  cuCtxGetDevice
+                    0.01%  54.021us         1  54.021us  54.021us  54.021us  cuLinkCreate
+                    0.00%  14.259us         1  14.259us  14.259us  14.259us  cuDeviceGetName
+                    0.00%  9.8800us         1  9.8800us  9.8800us  9.8800us  cuModuleGetFunction
+                    0.00%  8.4640us         1  8.4640us  8.4640us  8.4640us  cuDeviceGetPCIBusId
+                    0.00%  4.5980us         1  4.5980us  4.5980us  4.5980us  cuLinkDestroy
+                    0.00%  2.9020us         4     725ns     159ns  2.3140us  cuDeviceGetCount
+                    0.00%  2.4560us         1  2.4560us  2.4560us  2.4560us  cuInit
+                    0.00%  1.4700us         2     735ns     378ns  1.0920us  cuFuncGetAttribute
+                    0.00%  1.3670us         2     683ns     259ns  1.1080us  cuModuleGetGlobal
+                    0.00%     820ns         2     410ns     199ns     621ns  cuDeviceGet
+                    0.00%     369ns         1     369ns     369ns     369ns  cuCtxGetCurrent
                     0.00%     176ns         1     176ns     176ns     176ns  cuDriverGetVersion
 
-Text5
-OpenMP (100 Threads) - Encrypted Duration  12.1516
+Text51
+OpenMP (20 Threads) - Encrypted Duration  43.6962
 
-OpenMP (100 Threads) - Decrypted Duration  12.4389
+OpenMP (20 Threads) - Decrypted Duration  44.3105
 
 Legit solution: 1
-==242776== NVPROF is profiling process 242776, command: ./AES_OMPG 5 100
-Number of threads: 100
-Text5
+==471701== NVPROF is profiling process 471701, command: ./AES_OMPG 51 20
+Number of threads: 20
+Text51
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-50.5784
-7.18685
+61.0106
+11.9853
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.38755
+12.3331
 
 Legit solution: 1
-==242776== Profiling application: ./AES_OMPG 5 100
-==242776== Profiling result:
+==471701== Profiling application: ./AES_OMPG 51 20
+==471701== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.75%  39.195ms        30  1.3065ms  1.2884ms  1.3238ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.88%  5.9877ms       120  49.897us  1.6000us  107.62us  [CUDA memcpy HtoD]
-                   10.37%  5.2264ms        60  87.105us  83.807us  100.45us  [CUDA memcpy DtoH]
-      API calls:   31.16%  207.74ms         1  207.74ms  207.74ms  207.74ms  cuCtxCreate
-                   28.47%  189.80ms        24  7.9082ms  7.1413ms  10.286ms  cuLinkAddData
-                   10.93%  72.846ms        90  809.40us  262.88us  1.0704ms  cuMemAlloc
-                   10.20%  68.032ms       120  566.94us  8.5570us  1.3737ms  cuMemcpyHtoD
-                    6.04%  40.235ms         1  40.235ms  40.235ms  40.235ms  cuCtxDestroy
-                    5.90%  39.332ms        30  1.3111ms  1.2924ms  1.3282ms  cuCtxSynchronize
-                    2.96%  19.748ms        60  329.14us  268.32us  1.3454ms  cuMemcpyDtoH
-                    2.31%  15.377ms        90  170.86us  70.057us  436.78us  cuMemFree
-                    1.16%  7.7132ms         1  7.7132ms  7.7132ms  7.7132ms  cuModuleLoadData
-                    0.46%  3.0981ms        30  103.27us  13.975us  2.6032ms  cuLaunchKernel
-                    0.35%  2.3297ms         1  2.3297ms  2.3297ms  2.3297ms  cuLinkComplete
-                    0.02%  143.37us       240     597ns     318ns  2.1170us  cuMemGetAddressRange
-                    0.02%  110.37us        16  6.8980us     166ns  105.18us  cuDeviceGetAttribute
-                    0.01%  77.495us       303     255ns     137ns  3.4970us  cuCtxGetDevice
-                    0.01%  51.435us         1  51.435us  51.435us  51.435us  cuLinkCreate
-                    0.00%  14.183us         1  14.183us  14.183us  14.183us  cuDeviceGetName
-                    0.00%  10.071us         1  10.071us  10.071us  10.071us  cuModuleGetFunction
-                    0.00%  8.9200us         1  8.9200us  8.9200us  8.9200us  cuDeviceGetPCIBusId
-                    0.00%  3.2190us         1  3.2190us  3.2190us  3.2190us  cuLinkDestroy
-                    0.00%  2.4160us         4     604ns     162ns  1.8180us  cuDeviceGetCount
-                    0.00%  2.2110us         1  2.2110us  2.2110us  2.2110us  cuInit
-                    0.00%  1.5390us         2     769ns     336ns  1.2030us  cuFuncGetAttribute
-                    0.00%  1.0110us         2     505ns     234ns     777ns  cuModuleGetGlobal
-                    0.00%     586ns         2     293ns     164ns     422ns  cuDeviceGet
-                    0.00%     370ns         1     370ns     370ns     370ns  cuCtxGetCurrent
-                    0.00%     177ns         1     177ns     177ns     177ns  cuDriverGetVersion
-
-Text5
-OpenMP (200 Threads) - Encrypted Duration  14.009
-
-OpenMP (200 Threads) - Decrypted Duration  12.2711
-
-Legit solution: 1
-==243358== NVPROF is profiling process 243358, command: ./AES_OMPG 5 200
-Number of threads: 200
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-50.6015
-7.21212
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.38211
-
-Legit solution: 1
-==243358== Profiling application: ./AES_OMPG 5 200
-==243358== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.18%  39.131ms        30  1.3044ms  1.2890ms  1.3218ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.64%  5.9018ms       120  49.181us  1.6320us  109.18us  [CUDA memcpy HtoD]
-                   11.18%  5.6694ms        60  94.490us  90.367us  106.24us  [CUDA memcpy DtoH]
-      API calls:   30.99%  206.04ms         1  206.04ms  206.04ms  206.04ms  cuCtxCreate
-                   28.92%  192.30ms        24  8.0124ms  7.1887ms  10.925ms  cuLinkAddData
-                   10.97%  72.938ms        90  810.43us  246.75us  1.0696ms  cuMemAlloc
-                   10.23%  67.982ms       120  566.51us  8.2770us  1.3631ms  cuMemcpyHtoD
-                    5.91%  39.279ms        30  1.3093ms  1.2938ms  1.3266ms  cuCtxSynchronize
-                    5.71%  37.966ms         1  37.966ms  37.966ms  37.966ms  cuCtxDestroy
-                    3.05%  20.273ms        60  337.88us  276.46us  1.3726ms  cuMemcpyDtoH
-                    2.21%  14.689ms        90  163.22us  69.032us  329.86us  cuMemFree
-                    1.15%  7.6433ms         1  7.6433ms  7.6433ms  7.6433ms  cuModuleLoadData
-                    0.46%  3.0673ms        30  102.24us  12.939us  2.6099ms  cuLaunchKernel
-                    0.34%  2.2314ms         1  2.2314ms  2.2314ms  2.2314ms  cuLinkComplete
-                    0.02%  133.70us       240     557ns     294ns  1.3290us  cuMemGetAddressRange
-                    0.02%  123.06us        16  7.6910us     169ns  103.96us  cuDeviceGetAttribute
-                    0.01%  74.172us       303     244ns     137ns     820ns  cuCtxGetDevice
-                    0.01%  52.739us         1  52.739us  52.739us  52.739us  cuLinkCreate
-                    0.00%  15.261us         1  15.261us  15.261us  15.261us  cuDeviceGetName
-                    0.00%  8.8660us         1  8.8660us  8.8660us  8.8660us  cuModuleGetFunction
-                    0.00%  8.8450us         1  8.8450us  8.8450us  8.8450us  cuDeviceGetPCIBusId
-                    0.00%  2.8020us         1  2.8020us  2.8020us  2.8020us  cuLinkDestroy
-                    0.00%  2.7360us         4     684ns     165ns  2.0970us  cuDeviceGetCount
-                    0.00%  2.4990us         1  2.4990us  2.4990us  2.4990us  cuInit
-                    0.00%  1.2720us         2     636ns     245ns  1.0270us  cuModuleGetGlobal
-                    0.00%  1.1250us         2     562ns     383ns     742ns  cuFuncGetAttribute
-                    0.00%     842ns         2     421ns     168ns     674ns  cuDeviceGet
-                    0.00%     406ns         1     406ns     406ns     406ns  cuCtxGetCurrent
-                    0.00%     171ns         1     171ns     171ns     171ns  cuDriverGetVersion
-
-Text5
-OpenMP (300 Threads) - Encrypted Duration  14.7167
-
-OpenMP (300 Threads) - Decrypted Duration  12.8338
-
-Legit solution: 1
-==244158== NVPROF is profiling process 244158, command: ./AES_OMPG 5 300
-Number of threads: 300
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-50.4535
-7.25738
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.39514
-
-Legit solution: 1
-==244158== Profiling application: ./AES_OMPG 5 300
-==244158== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.69%  39.132ms        30  1.3044ms  1.2888ms  1.3217ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.35%  5.7159ms       120  47.632us  1.6000us  103.20us  [CUDA memcpy HtoD]
-                   10.96%  5.5223ms        60  92.038us  88.383us  99.423us  [CUDA memcpy DtoH]
-      API calls:   30.82%  205.19ms         1  205.19ms  205.19ms  205.19ms  cuCtxCreate
-                   28.70%  191.10ms        24  7.9624ms  7.2066ms  10.183ms  cuLinkAddData
-                   11.02%  73.385ms        90  815.38us  251.93us  1.1652ms  cuMemAlloc
-                   10.16%  67.627ms       120  563.56us  8.1760us  1.3882ms  cuMemcpyHtoD
-                    6.05%  40.252ms         1  40.252ms  40.252ms  40.252ms  cuCtxDestroy
-                    5.90%  39.299ms        30  1.3100ms  1.2839ms  1.3602ms  cuCtxSynchronize
-                    3.04%  20.240ms        60  337.33us  277.88us  1.3425ms  cuMemcpyDtoH
-                    2.28%  15.210ms        90  169.00us  73.212us  363.19us  cuMemFree
-                    1.15%  7.6788ms         1  7.6788ms  7.6788ms  7.6788ms  cuModuleLoadData
-                    0.47%  3.1016ms        30  103.39us  13.873us  2.6096ms  cuLaunchKernel
-                    0.35%  2.3216ms         1  2.3216ms  2.3216ms  2.3216ms  cuLinkComplete
-                    0.02%  156.38us       240     651ns     354ns  14.475us  cuMemGetAddressRange
-                    0.02%  108.81us        16  6.8000us     166ns  103.54us  cuDeviceGetAttribute
-                    0.01%  80.262us       303     264ns     151ns  5.0370us  cuCtxGetDevice
-                    0.01%  51.419us         1  51.419us  51.419us  51.419us  cuLinkCreate
-                    0.00%  15.956us         1  15.956us  15.956us  15.956us  cuDeviceGetName
-                    0.00%  8.3840us         1  8.3840us  8.3840us  8.3840us  cuDeviceGetPCIBusId
-                    0.00%  2.7440us         4     686ns     153ns  2.1020us  cuDeviceGetCount
-                    0.00%  2.7240us         1  2.7240us  2.7240us  2.7240us  cuLinkDestroy
-                    0.00%  2.4730us         1  2.4730us  2.4730us  2.4730us  cuInit
-                    0.00%  1.7480us         1  1.7480us  1.7480us  1.7480us  cuModuleGetFunction
-                    0.00%  1.4350us         2     717ns     708ns     727ns  cuFuncGetAttribute
-                    0.00%  1.0190us         2     509ns     231ns     788ns  cuModuleGetGlobal
-                    0.00%     843ns         2     421ns     166ns     677ns  cuDeviceGet
-                    0.00%     431ns         1     431ns     431ns     431ns  cuCtxGetCurrent
-                    0.00%     177ns         1     177ns     177ns     177ns  cuDriverGetVersion
-
-Text5
-OpenMP (400 Threads) - Encrypted Duration  16.5861
-
-OpenMP (400 Threads) - Decrypted Duration  13.9951
-
-Legit solution: 1
-==245176== NVPROF is profiling process 245176, command: ./AES_OMPG 5 400
-Number of threads: 400
-Text5
-Starting AES CUDA - COUNTER MODE
-filesize: 1048576
-
-Starting AES CUDA - COUNTER MODE KERNEL 
-50.413
-7.32618
-
-Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.35102
-
-Legit solution: 1
-==245176== Profiling application: ./AES_OMPG 5 400
-==245176== Profiling result:
-            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   75.77%  39.154ms        30  1.3051ms  1.2905ms  1.3230ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   13.16%  6.7997ms        60  113.33us  110.18us  124.99us  [CUDA memcpy DtoH]
-                   11.07%  5.7208ms       120  47.672us  1.6320us  100.51us  [CUDA memcpy HtoD]
-      API calls:   30.43%  201.56ms         1  201.56ms  201.56ms  201.56ms  cuCtxCreate
-                   28.89%  191.35ms        24  7.9730ms  7.0125ms  10.671ms  cuLinkAddData
-                   10.93%  72.389ms        90  804.32us  152.08us  1.0699ms  cuMemAlloc
-                   10.22%  67.661ms       120  563.84us  8.4120us  1.3587ms  cuMemcpyHtoD
-                    5.94%  39.312ms        30  1.3104ms  1.2953ms  1.3258ms  cuCtxSynchronize
-                    5.78%  38.269ms         1  38.269ms  38.269ms  38.269ms  cuCtxDestroy
-                    3.27%  21.669ms        60  361.15us  294.01us  1.3667ms  cuMemcpyDtoH
-                    2.33%  15.448ms        90  171.65us  68.752us  553.57us  cuMemFree
-                    1.32%  8.7248ms         1  8.7248ms  8.7248ms  8.7248ms  cuModuleLoadData
-                    0.47%  3.1179ms        30  103.93us  12.094us  2.6848ms  cuLaunchKernel
-                    0.36%  2.3630ms         1  2.3630ms  2.3630ms  2.3630ms  cuLinkComplete
-                    0.02%  150.62us       240     627ns     341ns  1.6200us  cuMemGetAddressRange
-                    0.02%  109.75us        16  6.8590us     165ns  104.20us  cuDeviceGetAttribute
-                    0.01%  83.992us       303     277ns     132ns     775ns  cuCtxGetDevice
-                    0.01%  52.333us         1  52.333us  52.333us  52.333us  cuLinkCreate
-                    0.00%  15.719us         1  15.719us  15.719us  15.719us  cuDeviceGetName
-                    0.00%  8.3970us         1  8.3970us  8.3970us  8.3970us  cuModuleGetFunction
-                    0.00%  8.3300us         1  8.3300us  8.3300us  8.3300us  cuDeviceGetPCIBusId
-                    0.00%  3.0780us         1  3.0780us  3.0780us  3.0780us  cuLinkDestroy
-                    0.00%  2.1470us         1  2.1470us  2.1470us  2.1470us  cuInit
-                    0.00%  1.8570us         4     464ns     158ns  1.2440us  cuDeviceGetCount
-                    0.00%  1.4430us         2     721ns     337ns  1.1060us  cuFuncGetAttribute
-                    0.00%  1.3160us         2     658ns     251ns  1.0650us  cuModuleGetGlobal
-                    0.00%     913ns         2     456ns     165ns     748ns  cuDeviceGet
-                    0.00%     428ns         1     428ns     428ns     428ns  cuCtxGetCurrent
+ GPU activities:   47.40%  95.931ms        30  3.1977ms  3.1780ms  3.2130ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.08%  62.908ms       120  524.23us  1.6310us  1.4483ms  [CUDA memcpy HtoD]
+                   21.52%  43.556ms        60  725.93us  608.16us  2.8500ms  [CUDA memcpy DtoH]
+      API calls:   26.46%  229.13ms        24  9.5471ms  6.8520ms  17.636ms  cuLinkAddData
+                   25.49%  220.75ms         1  220.75ms  220.75ms  220.75ms  cuCtxCreate
+                   14.26%  123.52ms       120  1.0293ms  8.8120us  2.6901ms  cuMemcpyHtoD
+                   11.09%  96.046ms        30  3.2015ms  3.1812ms  3.2180ms  cuCtxSynchronize
+                    8.14%  70.488ms        60  1.1748ms  932.80us  5.3383ms  cuMemcpyDtoH
+                    5.59%  48.438ms        90  538.20us  151.27us  1.0759ms  cuMemAlloc
+                    4.52%  39.172ms         1  39.172ms  39.172ms  39.172ms  cuCtxDestroy
+                    2.62%  22.705ms        90  252.28us  91.396us  558.01us  cuMemFree
+                    1.03%  8.9046ms         1  8.9046ms  8.9046ms  8.9046ms  cuModuleLoadData
+                    0.43%  3.7460ms        30  124.87us  21.729us  2.9929ms  cuLaunchKernel
+                    0.28%  2.3909ms         1  2.3909ms  2.3909ms  2.3909ms  cuLinkComplete
+                    0.03%  271.68us       240  1.1320us     359ns  2.8880us  cuMemGetAddressRange
+                    0.02%  136.10us        16  8.5060us     165ns  130.73us  cuDeviceGetAttribute
+                    0.01%  89.823us       303     296ns     148ns  1.8950us  cuCtxGetDevice
+                    0.01%  52.309us         1  52.309us  52.309us  52.309us  cuLinkCreate
+                    0.00%  14.374us         1  14.374us  14.374us  14.374us  cuDeviceGetName
+                    0.00%  10.919us         1  10.919us  10.919us  10.919us  cuModuleGetFunction
+                    0.00%  9.6730us         1  9.6730us  9.6730us  9.6730us  cuDeviceGetPCIBusId
+                    0.00%  6.7810us         1  6.7810us  6.7810us  6.7810us  cuLinkDestroy
+                    0.00%  3.7930us         4     948ns     178ns  3.1690us  cuDeviceGetCount
+                    0.00%  2.4350us         1  2.4350us  2.4350us  2.4350us  cuInit
+                    0.00%  1.3400us         2     670ns     265ns  1.0750us  cuModuleGetGlobal
+                    0.00%  1.3330us         2     666ns     530ns     803ns  cuFuncGetAttribute
+                    0.00%     905ns         2     452ns     166ns     739ns  cuDeviceGet
+                    0.00%     520ns         1     520ns     520ns     520ns  cuCtxGetCurrent
                     0.00%     166ns         1     166ns     166ns     166ns  cuDriverGetVersion
 
-Text5
-OpenMP (500 Threads) - Encrypted Duration  16.0134
+Text51
+OpenMP (24 Threads) - Encrypted Duration  41.786
 
-OpenMP (500 Threads) - Decrypted Duration  16.6485
+OpenMP (24 Threads) - Decrypted Duration  44.9746
 
 Legit solution: 1
-==246359== NVPROF is profiling process 246359, command: ./AES_OMPG 5 500
-Number of threads: 500
-Text5
+==472164== NVPROF is profiling process 472164, command: ./AES_OMPG 51 24
+Number of threads: 24
+Text51
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-51.6685
-7.25364
+57.5206
+11.9245
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.36022
+12.4756
 
 Legit solution: 1
-==246359== Profiling application: ./AES_OMPG 5 500
-==246359== Profiling result:
+==472164== Profiling application: ./AES_OMPG 51 24
+==472164== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.24%  39.143ms        30  1.3048ms  1.2887ms  1.3173ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.41%  5.7841ms        60  96.401us  91.903us  101.95us  [CUDA memcpy DtoH]
-                   11.34%  5.7476ms       120  47.896us  1.6310us  107.07us  [CUDA memcpy HtoD]
-      API calls:   30.11%  203.43ms         1  203.43ms  203.43ms  203.43ms  cuCtxCreate
-                   29.95%  202.31ms        24  8.4297ms  7.4242ms  13.366ms  cuLinkAddData
-                   10.70%  72.312ms        90  803.47us  124.48us  1.0759ms  cuMemAlloc
-                   10.03%  67.775ms       120  564.79us  8.4290us  1.3573ms  cuMemcpyHtoD
-                    5.81%  39.282ms        30  1.3094ms  1.2931ms  1.3246ms  cuCtxSynchronize
-                    5.70%  38.498ms         1  38.498ms  38.498ms  38.498ms  cuCtxDestroy
-                    3.12%  21.081ms        60  351.35us  287.38us  1.3997ms  cuMemcpyDtoH
-                    2.22%  14.982ms        90  166.46us  69.529us  342.66us  cuMemFree
-                    1.33%  8.9961ms         1  8.9961ms  8.9961ms  8.9961ms  cuModuleLoadData
-                    0.48%  3.2734ms         1  3.2734ms  3.2734ms  3.2734ms  cuLinkComplete
-                    0.47%  3.1430ms        30  104.77us  13.257us  2.6828ms  cuLaunchKernel
-                    0.03%  172.18us       240     717ns     355ns  21.095us  cuMemGetAddressRange
-                    0.02%  115.66us        16  7.2280us     164ns  109.69us  cuDeviceGetAttribute
-                    0.01%  72.255us       303     238ns     136ns  1.1550us  cuCtxGetDevice
-                    0.01%  51.835us         1  51.835us  51.835us  51.835us  cuLinkCreate
-                    0.00%  15.169us         1  15.169us  15.169us  15.169us  cuDeviceGetName
-                    0.00%  9.4500us         1  9.4500us  9.4500us  9.4500us  cuModuleGetFunction
-                    0.00%  8.3180us         1  8.3180us  8.3180us  8.3180us  cuDeviceGetPCIBusId
-                    0.00%  3.6730us         1  3.6730us  3.6730us  3.6730us  cuLinkDestroy
-                    0.00%  2.5760us         4     644ns     190ns  1.9350us  cuDeviceGetCount
-                    0.00%  2.2800us         1  2.2800us  2.2800us  2.2800us  cuInit
-                    0.00%  1.0260us         2     513ns     392ns     634ns  cuFuncGetAttribute
-                    0.00%  1.0100us         2     505ns     272ns     738ns  cuModuleGetGlobal
-                    0.00%     762ns         2     381ns     178ns     584ns  cuDeviceGet
-                    0.00%     393ns         1     393ns     393ns     393ns  cuCtxGetCurrent
-                    0.00%     179ns         1     179ns     179ns     179ns  cuDriverGetVersion
+ GPU activities:   47.18%  95.918ms        30  3.1973ms  3.1808ms  3.2162ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.18%  63.387ms       120  528.22us  1.6320us  1.4521ms  [CUDA memcpy HtoD]
+                   21.64%  43.996ms        60  733.27us  611.74us  2.7254ms  [CUDA memcpy DtoH]
+      API calls:   25.63%  212.67ms         1  212.67ms  212.67ms  212.67ms  cuCtxCreate
+                   24.08%  199.81ms        24  8.3252ms  7.3170ms  11.353ms  cuLinkAddData
+                   14.92%  123.78ms       120  1.0315ms  9.5650us  2.8584ms  cuMemcpyHtoD
+                   11.58%  96.062ms        30  3.2021ms  3.1796ms  3.2281ms  cuCtxSynchronize
+                    8.54%  70.852ms        60  1.1809ms  957.83us  5.0627ms  cuMemcpyDtoH
+                    5.93%  49.215ms        90  546.83us  152.88us  1.0713ms  cuMemAlloc
+                    4.66%  38.642ms         1  38.642ms  38.642ms  38.642ms  cuCtxDestroy
+                    2.79%  23.174ms        90  257.48us  95.561us  506.62us  cuMemFree
+                    1.08%  8.9948ms         1  8.9948ms  8.9948ms  8.9948ms  cuModuleLoadData
+                    0.42%  3.4705ms        30  115.68us  23.131us  2.6983ms  cuLaunchKernel
+                    0.29%  2.4439ms         1  2.4439ms  2.4439ms  2.4439ms  cuLinkComplete
+                    0.03%  268.95us       240  1.1200us     367ns  2.9670us  cuMemGetAddressRange
+                    0.01%  112.80us        16  7.0490us     169ns  106.50us  cuDeviceGetAttribute
+                    0.01%  97.104us       303     320ns     142ns  1.1620us  cuCtxGetDevice
+                    0.01%  56.707us         1  56.707us  56.707us  56.707us  cuLinkCreate
+                    0.00%  14.644us         1  14.644us  14.644us  14.644us  cuDeviceGetName
+                    0.00%  9.2310us         1  9.2310us  9.2310us  9.2310us  cuModuleGetFunction
+                    0.00%  8.7150us         1  8.7150us  8.7150us  8.7150us  cuDeviceGetPCIBusId
+                    0.00%  5.2690us         1  5.2690us  5.2690us  5.2690us  cuLinkDestroy
+                    0.00%  4.1650us         4  1.0410us     196ns  3.4810us  cuDeviceGetCount
+                    0.00%  2.3030us         1  2.3030us  2.3030us  2.3030us  cuInit
+                    0.00%  1.4100us         2     705ns     255ns  1.1550us  cuModuleGetGlobal
+                    0.00%  1.3640us         2     682ns     217ns  1.1470us  cuDeviceGet
+                    0.00%  1.3550us         2     677ns     441ns     914ns  cuFuncGetAttribute
+                    0.00%     424ns         1     424ns     424ns     424ns  cuCtxGetCurrent
+                    0.00%     178ns         1     178ns     178ns     178ns  cuDriverGetVersion
 
-Text5
-OpenMP (600 Threads) - Encrypted Duration  17.5663
+Text51
+OpenMP (28 Threads) - Encrypted Duration  44.2964
 
-OpenMP (600 Threads) - Decrypted Duration  15.8893
+OpenMP (28 Threads) - Decrypted Duration  45.4422
 
 Legit solution: 1
-==247773== NVPROF is profiling process 247773, command: ./AES_OMPG 5 600
-Number of threads: 600
-Text5
+==472714== NVPROF is profiling process 472714, command: ./AES_OMPG 51 28
+Number of threads: 28
+Text51
 Starting AES CUDA - COUNTER MODE
-filesize: 1048576
+filesize: 4194304
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-50.4916
-7.45407
+60.2759
+12.0641
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-7.45681
+12.4372
 
 Legit solution: 1
-==247773== Profiling application: ./AES_OMPG 5 600
-==247773== Profiling result:
+==472714== Profiling application: ./AES_OMPG 51 28
+==472714== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   77.37%  39.083ms        30  1.3028ms  1.2864ms  1.3188ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
-                   11.41%  5.7634ms       120  48.028us  1.6310us  106.30us  [CUDA memcpy HtoD]
-                   11.22%  5.6650ms        60  94.415us  87.327us  100.19us  [CUDA memcpy DtoH]
-      API calls:   30.32%  201.99ms         1  201.99ms  201.99ms  201.99ms  cuCtxCreate
-                   29.14%  194.14ms        24  8.0891ms  7.1590ms  11.899ms  cuLinkAddData
-                   11.00%  73.284ms        90  814.26us  128.13us  1.1289ms  cuMemAlloc
-                   10.17%  67.745ms       120  564.54us  8.6570us  1.2553ms  cuMemcpyHtoD
-                    5.90%  39.313ms        30  1.3104ms  1.2938ms  1.3598ms  cuCtxSynchronize
-                    5.70%  37.978ms         1  37.978ms  37.978ms  37.978ms  cuCtxDestroy
-                    3.22%  21.479ms        60  357.99us  269.04us  1.5169ms  cuMemcpyDtoH
-                    2.35%  15.685ms        90  174.28us  71.289us  435.15us  cuMemFree
-                    1.30%  8.6638ms         1  8.6638ms  8.6638ms  8.6638ms  cuModuleLoadData
-                    0.48%  3.1765ms        30  105.88us  12.597us  2.6720ms  cuLaunchKernel
-                    0.35%  2.3393ms         1  2.3393ms  2.3393ms  2.3393ms  cuLinkComplete
-                    0.02%  153.53us       240     639ns     388ns  5.4310us  cuMemGetAddressRange
-                    0.02%  146.41us        16  9.1500us     167ns  141.64us  cuDeviceGetAttribute
-                    0.01%  90.877us       303     299ns     148ns  9.4070us  cuCtxGetDevice
-                    0.01%  56.598us         1  56.598us  56.598us  56.598us  cuLinkCreate
-                    0.00%  16.455us         1  16.455us  16.455us  16.455us  cuDeviceGetName
-                    0.00%  8.5550us         1  8.5550us  8.5550us  8.5550us  cuDeviceGetPCIBusId
-                    0.00%  2.5520us         1  2.5520us  2.5520us  2.5520us  cuLinkDestroy
-                    0.00%  2.5050us         1  2.5050us  2.5050us  2.5050us  cuInit
-                    0.00%  1.8710us         4     467ns     153ns  1.3480us  cuDeviceGetCount
-                    0.00%  1.7780us         1  1.7780us  1.7780us  1.7780us  cuModuleGetFunction
-                    0.00%  1.4560us         2     728ns     412ns  1.0440us  cuFuncGetAttribute
-                    0.00%     999ns         2     499ns     236ns     763ns  cuModuleGetGlobal
-                    0.00%     698ns         2     349ns     150ns     548ns  cuDeviceGet
-                    0.00%     390ns         1     390ns     390ns     390ns  cuCtxGetCurrent
+ GPU activities:   47.39%  95.962ms        30  3.1987ms  3.1828ms  3.2239ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.21%  63.204ms       120  526.70us  1.6000us  1.4592ms  [CUDA memcpy HtoD]
+                   21.40%  43.344ms        60  722.39us  607.36us  2.6424ms  [CUDA memcpy DtoH]
+      API calls:   26.71%  230.08ms        24  9.5868ms  7.6468ms  15.513ms  cuLinkAddData
+                   24.85%  214.13ms         1  214.13ms  214.13ms  214.13ms  cuCtxCreate
+                   14.34%  123.58ms       120  1.0299ms  9.5050us  2.8913ms  cuMemcpyHtoD
+                   11.16%  96.111ms        30  3.2037ms  3.1864ms  3.2228ms  cuCtxSynchronize
+                    8.22%  70.785ms        60  1.1798ms  960.14us  5.0191ms  cuMemcpyDtoH
+                    5.76%  49.606ms        90  551.18us  236.00us  1.0774ms  cuMemAlloc
+                    4.63%  39.892ms         1  39.892ms  39.892ms  39.892ms  cuCtxDestroy
+                    2.70%  23.229ms        90  258.11us  94.053us  603.38us  cuMemFree
+                    0.90%  7.7896ms         1  7.7896ms  7.7896ms  7.7896ms  cuModuleLoadData
+                    0.39%  3.4024ms        30  113.41us  22.960us  2.6587ms  cuLaunchKernel
+                    0.27%  2.3404ms         1  2.3404ms  2.3404ms  2.3404ms  cuLinkComplete
+                    0.03%  286.15us       240  1.1920us     355ns  14.381us  cuMemGetAddressRange
+                    0.01%  116.16us        16  7.2600us     169ns  110.65us  cuDeviceGetAttribute
+                    0.01%  89.969us       303     296ns     142ns  1.1470us  cuCtxGetDevice
+                    0.01%  52.536us         1  52.536us  52.536us  52.536us  cuLinkCreate
+                    0.00%  14.249us         1  14.249us  14.249us  14.249us  cuDeviceGetName
+                    0.00%  10.396us         1  10.396us  10.396us  10.396us  cuModuleGetFunction
+                    0.00%  8.4560us         1  8.4560us  8.4560us  8.4560us  cuDeviceGetPCIBusId
+                    0.00%  5.4740us         1  5.4740us  5.4740us  5.4740us  cuLinkDestroy
+                    0.00%  3.1970us         4     799ns     244ns  2.4190us  cuDeviceGetCount
+                    0.00%  3.0050us         1  3.0050us  3.0050us  3.0050us  cuInit
+                    0.00%  1.4540us         2     727ns     501ns     953ns  cuFuncGetAttribute
+                    0.00%  1.3980us         2     699ns     243ns  1.1550us  cuModuleGetGlobal
+                    0.00%     853ns         2     426ns     231ns     622ns  cuDeviceGet
+                    0.00%     465ns         1     465ns     465ns     465ns  cuCtxGetCurrent
+                    0.00%     205ns         1     205ns     205ns     205ns  cuDriverGetVersion
+
+Text51
+OpenMP (32 Threads) - Encrypted Duration  44.2183
+
+OpenMP (32 Threads) - Decrypted Duration  44.1964
+
+Legit solution: 1
+==473318== NVPROF is profiling process 473318, command: ./AES_OMPG 51 32
+Number of threads: 32
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+57.7383
+12.0001
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.398
+
+Legit solution: 1
+==473318== Profiling application: ./AES_OMPG 51 32
+==473318== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.10%  95.973ms        30  3.1991ms  3.1829ms  3.2266ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.15%  63.488ms       120  529.07us  1.6310us  1.4468ms  [CUDA memcpy HtoD]
+                   21.75%  44.323ms        60  738.71us  629.44us  2.7256ms  [CUDA memcpy DtoH]
+      API calls:   25.68%  214.14ms         1  214.14ms  214.14ms  214.14ms  cuCtxCreate
+                   24.31%  202.69ms        24  8.4453ms  7.4823ms  11.928ms  cuLinkAddData
+                   14.86%  123.93ms       120  1.0327ms  9.0830us  3.0318ms  cuMemcpyHtoD
+                   11.53%  96.105ms        30  3.2035ms  3.1872ms  3.2310ms  cuCtxSynchronize
+                    8.48%  70.719ms        60  1.1786ms  978.17us  5.1044ms  cuMemcpyDtoH
+                    5.86%  48.843ms        90  542.70us  160.28us  1.0727ms  cuMemAlloc
+                    4.70%  39.167ms         1  39.167ms  39.167ms  39.167ms  cuCtxDestroy
+                    2.73%  22.791ms        90  253.23us  96.662us  595.99us  cuMemFree
+                    1.06%  8.8692ms         1  8.8692ms  8.8692ms  8.8692ms  cuModuleLoadData
+                    0.41%  3.4525ms        30  115.08us  21.509us  2.6806ms  cuLaunchKernel
+                    0.29%  2.3937ms         1  2.3937ms  2.3937ms  2.3937ms  cuLinkComplete
+                    0.04%  291.89us       240  1.2160us     337ns  13.390us  cuMemGetAddressRange
+                    0.01%  120.42us        16  7.5250us     164ns  114.48us  cuDeviceGetAttribute
+                    0.01%  97.400us       303     321ns     139ns  8.2320us  cuCtxGetDevice
+                    0.01%  61.532us         1  61.532us  61.532us  61.532us  cuLinkCreate
+                    0.00%  14.613us         1  14.613us  14.613us  14.613us  cuDeviceGetName
+                    0.00%  9.8210us         1  9.8210us  9.8210us  9.8210us  cuModuleGetFunction
+                    0.00%  8.0390us         1  8.0390us  8.0390us  8.0390us  cuDeviceGetPCIBusId
+                    0.00%  6.1630us         1  6.1630us  6.1630us  6.1630us  cuLinkDestroy
+                    0.00%  2.8930us         4     723ns     171ns  2.2850us  cuDeviceGetCount
+                    0.00%  2.5910us         1  2.5910us  2.5910us  2.5910us  cuInit
+                    0.00%  1.3980us         2     699ns     447ns     951ns  cuFuncGetAttribute
+                    0.00%  1.1600us         2     580ns     237ns     923ns  cuModuleGetGlobal
+                    0.00%     931ns         2     465ns     159ns     772ns  cuDeviceGet
+                    0.00%     439ns         1     439ns     439ns     439ns  cuCtxGetCurrent
+                    0.00%     176ns         1     176ns     176ns     176ns  cuDriverGetVersion
+
+Text51
+OpenMP (40 Threads) - Encrypted Duration  42.9758
+
+OpenMP (40 Threads) - Decrypted Duration  43.9134
+
+Legit solution: 1
+==473834== NVPROF is profiling process 473834, command: ./AES_OMPG 51 40
+Number of threads: 40
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.9888
+11.9883
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.3512
+
+Legit solution: 1
+==473834== Profiling application: ./AES_OMPG 51 40
+==473834== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.36%  95.988ms        30  3.1996ms  3.1865ms  3.2152ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.08%  62.993ms       120  524.94us  1.6310us  1.4437ms  [CUDA memcpy HtoD]
+                   21.56%  43.686ms        60  728.11us  611.84us  2.6664ms  [CUDA memcpy DtoH]
+      API calls:   25.82%  213.71ms         1  213.71ms  213.71ms  213.71ms  cuCtxCreate
+                   23.66%  195.79ms        24  8.1579ms  7.4673ms  11.201ms  cuLinkAddData
+                   14.91%  123.42ms       120  1.0285ms  9.3650us  2.8834ms  cuMemcpyHtoD
+                   11.62%  96.153ms        30  3.2051ms  3.1910ms  3.2354ms  cuCtxSynchronize
+                    8.46%  69.997ms        60  1.1666ms  950.94us  5.0257ms  cuMemcpyDtoH
+                    5.96%  49.331ms        90  548.13us  194.54us  1.0806ms  cuMemAlloc
+                    4.88%  40.358ms         1  40.358ms  40.358ms  40.358ms  cuCtxDestroy
+                    2.78%  23.025ms        90  255.84us  94.375us  640.92us  cuMemFree
+                    1.10%  9.1271ms         1  9.1271ms  9.1271ms  9.1271ms  cuModuleLoadData
+                    0.42%  3.4539ms        30  115.13us  22.149us  2.7276ms  cuLaunchKernel
+                    0.32%  2.6408ms         1  2.6408ms  2.6408ms  2.6408ms  cuLinkComplete
+                    0.04%  293.89us       240  1.2240us     359ns  17.281us  cuMemGetAddressRange
+                    0.01%  117.00us        16  7.3120us     165ns  111.02us  cuDeviceGetAttribute
+                    0.01%  108.17us       303     357ns     142ns  18.706us  cuCtxGetDevice
+                    0.01%  51.872us         1  51.872us  51.872us  51.872us  cuLinkCreate
+                    0.00%  14.978us         1  14.978us  14.978us  14.978us  cuDeviceGetName
+                    0.00%  10.554us         1  10.554us  10.554us  10.554us  cuModuleGetFunction
+                    0.00%  8.9610us         1  8.9610us  8.9610us  8.9610us  cuDeviceGetPCIBusId
+                    0.00%  5.8830us         1  5.8830us  5.8830us  5.8830us  cuLinkDestroy
+                    0.00%  3.5840us         1  3.5840us  3.5840us  3.5840us  cuInit
+                    0.00%  3.1810us         4     795ns     182ns  2.4860us  cuDeviceGetCount
+                    0.00%  1.5180us         2     759ns     458ns  1.0600us  cuFuncGetAttribute
+                    0.00%  1.3040us         2     652ns     239ns  1.0650us  cuModuleGetGlobal
+                    0.00%     754ns         2     377ns     313ns     441ns  cuDeviceGet
+                    0.00%     471ns         1     471ns     471ns     471ns  cuCtxGetCurrent
+                    0.00%     197ns         1     197ns     197ns     197ns  cuDriverGetVersion
+
+Text51
+OpenMP (50 Threads) - Encrypted Duration  42.563
+
+OpenMP (50 Threads) - Decrypted Duration  43.1312
+
+Legit solution: 1
+==474319== NVPROF is profiling process 474319, command: ./AES_OMPG 51 50
+Number of threads: 50
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.5917
+11.841
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.3585
+
+Legit solution: 1
+==474319== Profiling application: ./AES_OMPG 51 50
+==474319== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.44%  95.898ms        30  3.1966ms  3.1721ms  3.2217ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.13%  62.918ms       120  524.32us  1.6310us  1.4580ms  [CUDA memcpy HtoD]
+                   21.43%  43.320ms        60  722.00us  595.80us  2.6346ms  [CUDA memcpy DtoH]
+      API calls:   25.78%  211.35ms         1  211.35ms  211.35ms  211.35ms  cuCtxCreate
+                   23.66%  193.97ms        24  8.0820ms  7.4401ms  10.441ms  cuLinkAddData
+                   15.06%  123.45ms       120  1.0287ms  8.5060us  2.8805ms  cuMemcpyHtoD
+                   11.71%  96.009ms        30  3.2003ms  3.1770ms  3.2254ms  cuCtxSynchronize
+                    8.48%  69.514ms        60  1.1586ms  915.50us  5.0214ms  cuMemcpyDtoH
+                    5.93%  48.635ms        90  540.38us  146.61us  1.0724ms  cuMemAlloc
+                    4.76%  38.980ms         1  38.980ms  38.980ms  38.980ms  cuCtxDestroy
+                    2.74%  22.456ms        90  249.52us  90.774us  496.47us  cuMemFree
+                    1.09%  8.9229ms         1  8.9229ms  8.9229ms  8.9229ms  cuModuleLoadData
+                    0.42%  3.4639ms        30  115.46us  21.736us  2.7400ms  cuLaunchKernel
+                    0.29%  2.3868ms         1  2.3868ms  2.3868ms  2.3868ms  cuLinkComplete
+                    0.03%  284.60us       240  1.1850us     362ns  8.9830us  cuMemGetAddressRange
+                    0.01%  116.22us        16  7.2630us     170ns  109.56us  cuDeviceGetAttribute
+                    0.01%  95.909us       303     316ns     156ns  5.0300us  cuCtxGetDevice
+                    0.01%  51.806us         1  51.806us  51.806us  51.806us  cuLinkCreate
+                    0.00%  14.184us         1  14.184us  14.184us  14.184us  cuDeviceGetName
+                    0.00%  9.8910us         1  9.8910us  9.8910us  9.8910us  cuDeviceGetPCIBusId
+                    0.00%  5.6400us         1  5.6400us  5.6400us  5.6400us  cuLinkDestroy
+                    0.00%  3.4580us         4     864ns     166ns  2.4770us  cuDeviceGetCount
+                    0.00%  2.6480us         1  2.6480us  2.6480us  2.6480us  cuInit
+                    0.00%  2.6330us         1  2.6330us  2.6330us  2.6330us  cuModuleGetFunction
+                    0.00%  1.8330us         2     916ns     498ns  1.3350us  cuFuncGetAttribute
+                    0.00%  1.4860us         2     743ns     200ns  1.2860us  cuDeviceGet
+                    0.00%  1.1890us         2     594ns     270ns     919ns  cuModuleGetGlobal
+                    0.00%     671ns         1     671ns     671ns     671ns  cuCtxGetCurrent
+                    0.00%     174ns         1     174ns     174ns     174ns  cuDriverGetVersion
+
+Text51
+OpenMP (60 Threads) - Encrypted Duration  42.7946
+
+OpenMP (60 Threads) - Decrypted Duration  43.8859
+
+Legit solution: 1
+==474868== NVPROF is profiling process 474868, command: ./AES_OMPG 51 60
+Number of threads: 60
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.8856
+12.0229
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.3542
+
+Legit solution: 1
+==474868== Profiling application: ./AES_OMPG 51 60
+==474868== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.19%  95.976ms        30  3.1992ms  3.1790ms  3.2231ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.21%  63.475ms       120  528.96us  1.6310us  1.4516ms  [CUDA memcpy HtoD]
+                   21.61%  43.944ms        60  732.39us  613.82us  2.6747ms  [CUDA memcpy DtoH]
+      API calls:   25.83%  213.19ms         1  213.19ms  213.19ms  213.19ms  cuCtxCreate
+                   23.65%  195.23ms        24  8.1347ms  7.3499ms  10.724ms  cuLinkAddData
+                   15.00%  123.85ms       120  1.0321ms  9.0090us  2.8850ms  cuMemcpyHtoD
+                   11.64%  96.120ms        30  3.2040ms  3.1845ms  3.2314ms  cuCtxSynchronize
+                    8.56%  70.642ms        60  1.1774ms  951.58us  5.0301ms  cuMemcpyDtoH
+                    5.92%  48.872ms        90  543.03us  172.98us  1.0740ms  cuMemAlloc
+                    4.76%  39.278ms         1  39.278ms  39.278ms  39.278ms  cuCtxDestroy
+                    2.78%  22.962ms        90  255.13us  93.229us  499.15us  cuMemFree
+                    1.07%  8.8668ms         1  8.8668ms  8.8668ms  8.8668ms  cuModuleLoadData
+                    0.42%  3.4453ms        30  114.84us  22.433us  2.7179ms  cuLaunchKernel
+                    0.30%  2.4362ms         1  2.4362ms  2.4362ms  2.4362ms  cuLinkComplete
+                    0.03%  254.92us       240  1.0620us     382ns  5.7540us  cuMemGetAddressRange
+                    0.01%  113.47us        16  7.0910us     168ns  108.00us  cuDeviceGetAttribute
+                    0.01%  100.34us       303     331ns     142ns  5.6160us  cuCtxGetDevice
+                    0.01%  53.096us         1  53.096us  53.096us  53.096us  cuLinkCreate
+                    0.00%  27.101us         1  27.101us  27.101us  27.101us  cuLinkDestroy
+                    0.00%  15.202us         1  15.202us  15.202us  15.202us  cuDeviceGetName
+                    0.00%  9.9620us         1  9.9620us  9.9620us  9.9620us  cuDeviceGetPCIBusId
+                    0.00%  3.0290us         4     757ns     181ns  2.4060us  cuDeviceGetCount
+                    0.00%  2.7460us         1  2.7460us  2.7460us  2.7460us  cuInit
+                    0.00%  2.2260us         1  2.2260us  2.2260us  2.2260us  cuModuleGetFunction
+                    0.00%  1.3830us         2     691ns     590ns     793ns  cuFuncGetAttribute
+                    0.00%  1.1270us         2     563ns     235ns     892ns  cuModuleGetGlobal
+                    0.00%     777ns         2     388ns     154ns     623ns  cuDeviceGet
+                    0.00%     424ns         1     424ns     424ns     424ns  cuCtxGetCurrent
+                    0.00%     169ns         1     169ns     169ns     169ns  cuDriverGetVersion
+
+Text51
+OpenMP (80 Threads) - Encrypted Duration  41.8288
+
+OpenMP (80 Threads) - Decrypted Duration  41.6193
+
+Legit solution: 1
+==475398== NVPROF is profiling process 475398, command: ./AES_OMPG 51 80
+Number of threads: 80
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.7709
+11.9968
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.4469
+
+Legit solution: 1
+==475398== Profiling application: ./AES_OMPG 51 80
+==475398== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.15%  95.939ms        30  3.1980ms  3.1789ms  3.2176ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.10%  63.279ms       120  527.33us  1.6310us  1.4462ms  [CUDA memcpy HtoD]
+                   21.75%  44.262ms        60  737.70us  625.98us  2.7136ms  [CUDA memcpy DtoH]
+      API calls:   25.96%  214.40ms         1  214.40ms  214.40ms  214.40ms  cuCtxCreate
+                   23.48%  193.96ms        24  8.0818ms  7.2496ms  10.726ms  cuLinkAddData
+                   14.98%  123.75ms       120  1.0313ms  8.8090us  2.8634ms  cuMemcpyHtoD
+                   11.63%  96.087ms        30  3.2029ms  3.1895ms  3.2266ms  cuCtxSynchronize
+                    8.62%  71.192ms        60  1.1865ms  924.19us  5.0928ms  cuMemcpyDtoH
+                    5.97%  49.349ms        90  548.32us  239.32us  1.0656ms  cuMemAlloc
+                    4.83%  39.878ms         1  39.878ms  39.878ms  39.878ms  cuCtxDestroy
+                    2.78%  22.925ms        90  254.73us  94.695us  610.50us  cuMemFree
+                    0.96%  7.9344ms         1  7.9344ms  7.9344ms  7.9344ms  cuModuleLoadData
+                    0.41%  3.3665ms        30  112.22us  22.699us  2.6163ms  cuLaunchKernel
+                    0.30%  2.5188ms         1  2.5188ms  2.5188ms  2.5188ms  cuLinkComplete
+                    0.03%  251.52us       240  1.0480us     315ns  2.5370us  cuMemGetAddressRange
+                    0.01%  118.10us        16  7.3810us     164ns  112.65us  cuDeviceGetAttribute
+                    0.01%  89.567us       303     295ns     131ns  1.4230us  cuCtxGetDevice
+                    0.01%  52.677us         1  52.677us  52.677us  52.677us  cuLinkCreate
+                    0.00%  14.994us         1  14.994us  14.994us  14.994us  cuDeviceGetName
+                    0.00%  9.9060us         1  9.9060us  9.9060us  9.9060us  cuModuleGetFunction
+                    0.00%  8.3260us         1  8.3260us  8.3260us  8.3260us  cuDeviceGetPCIBusId
+                    0.00%  5.7680us         1  5.7680us  5.7680us  5.7680us  cuLinkDestroy
+                    0.00%  2.7070us         4     676ns     156ns  2.1240us  cuDeviceGetCount
+                    0.00%  2.6880us         1  2.6880us  2.6880us  2.6880us  cuInit
+                    0.00%  1.1110us         2     555ns     268ns     843ns  cuModuleGetGlobal
+                    0.00%  1.0200us         2     510ns     327ns     693ns  cuFuncGetAttribute
+                    0.00%     780ns         2     390ns     156ns     624ns  cuDeviceGet
+                    0.00%     395ns         1     395ns     395ns     395ns  cuCtxGetCurrent
                     0.00%     170ns         1     170ns     170ns     170ns  cuDriverGetVersion
 
-Text5
+Text51
+OpenMP (100 Threads) - Encrypted Duration  41.4072
+
+OpenMP (100 Threads) - Decrypted Duration  42.1579
+
+Legit solution: 1
+==475968== NVPROF is profiling process 475968, command: ./AES_OMPG 51 100
+Number of threads: 100
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+58.5223
+11.9608
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.5559
+
+Legit solution: 1
+==475968== Profiling application: ./AES_OMPG 51 100
+==475968== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.07%  95.976ms        30  3.1992ms  3.1838ms  3.2229ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   30.99%  63.188ms       120  526.57us  1.6310us  1.4573ms  [CUDA memcpy HtoD]
+                   21.95%  44.752ms        60  745.86us  634.81us  2.8618ms  [CUDA memcpy DtoH]
+      API calls:   25.88%  217.81ms         1  217.81ms  217.81ms  217.81ms  cuCtxCreate
+                   24.33%  204.75ms        24  8.5314ms  7.3597ms  14.183ms  cuLinkAddData
+                   14.70%  123.72ms       120  1.0310ms  9.4940us  2.8188ms  cuMemcpyHtoD
+                   11.42%  96.118ms        30  3.2039ms  3.1878ms  3.2273ms  cuCtxSynchronize
+                    8.58%  72.172ms        60  1.2029ms  998.03us  5.3524ms  cuMemcpyDtoH
+                    5.85%  49.231ms        90  547.01us  159.95us  1.0709ms  cuMemAlloc
+                    4.60%  38.673ms         1  38.673ms  38.673ms  38.673ms  cuCtxDestroy
+                    2.81%  23.608ms        90  262.31us  99.746us  605.53us  cuMemFree
+                    1.06%  8.9582ms         1  8.9582ms  8.9582ms  8.9582ms  cuModuleLoadData
+                    0.42%  3.5027ms        30  116.76us  23.242us  2.7434ms  cuLaunchKernel
+                    0.29%  2.4025ms         1  2.4025ms  2.4025ms  2.4025ms  cuLinkComplete
+                    0.03%  274.49us       240  1.1430us     381ns  5.1840us  cuMemGetAddressRange
+                    0.01%  122.16us        16  7.6350us     168ns  110.19us  cuDeviceGetAttribute
+                    0.01%  107.20us       303     353ns     144ns  13.133us  cuCtxGetDevice
+                    0.01%  68.104us         1  68.104us  68.104us  68.104us  cuLinkCreate
+                    0.00%  18.753us         1  18.753us  18.753us  18.753us  cuDeviceGetName
+                    0.00%  9.8080us         1  9.8080us  9.8080us  9.8080us  cuModuleGetFunction
+                    0.00%  8.7690us         1  8.7690us  8.7690us  8.7690us  cuInit
+                    0.00%  8.2320us         1  8.2320us  8.2320us  8.2320us  cuDeviceGetPCIBusId
+                    0.00%  5.9810us         1  5.9810us  5.9810us  5.9810us  cuLinkDestroy
+                    0.00%  2.7140us         4     678ns     165ns  2.0050us  cuDeviceGetCount
+                    0.00%  1.7950us         2     897ns     784ns  1.0110us  cuFuncGetAttribute
+                    0.00%  1.2150us         2     607ns     255ns     960ns  cuModuleGetGlobal
+                    0.00%     833ns         2     416ns     255ns     578ns  cuDeviceGet
+                    0.00%     515ns         1     515ns     515ns     515ns  cuCtxGetCurrent
+                    0.00%     257ns         1     257ns     257ns     257ns  cuDriverGetVersion
+
+Text51
+OpenMP (200 Threads) - Encrypted Duration  43.1001
+
+OpenMP (200 Threads) - Decrypted Duration  42.1656
+
+Legit solution: 1
+==476712== NVPROF is profiling process 476712, command: ./AES_OMPG 51 200
+Number of threads: 200
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.5662
+12.0586
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.4416
+
+Legit solution: 1
+==476712== Profiling application: ./AES_OMPG 51 200
+==476712== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   46.94%  95.927ms        30  3.1976ms  3.1758ms  3.2102ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.03%  63.428ms       120  528.57us  1.6310us  1.4573ms  [CUDA memcpy HtoD]
+                   22.03%  45.023ms        60  750.39us  637.28us  2.8931ms  [CUDA memcpy DtoH]
+      API calls:   26.24%  215.84ms         1  215.84ms  215.84ms  215.84ms  cuCtxCreate
+                   22.84%  187.88ms        24  7.8285ms  6.9717ms  10.358ms  cuLinkAddData
+                   15.07%  123.97ms       120  1.0331ms  9.0340us  2.7475ms  cuMemcpyHtoD
+                   11.68%  96.112ms        30  3.2037ms  3.1811ms  3.2737ms  cuCtxSynchronize
+                    8.79%  72.310ms        60  1.2052ms  994.08us  5.4488ms  cuMemcpyDtoH
+                    5.96%  49.014ms        90  544.61us  150.62us  1.1669ms  cuMemAlloc
+                    4.67%  38.432ms         1  38.432ms  38.432ms  38.432ms  cuCtxDestroy
+                    2.80%  23.053ms        90  256.14us  95.340us  542.91us  cuMemFree
+                    1.11%  9.1384ms         1  9.1384ms  9.1384ms  9.1384ms  cuModuleLoadData
+                    0.44%  3.6353ms        30  121.18us  22.600us  2.9084ms  cuLaunchKernel
+                    0.31%  2.5478ms         1  2.5478ms  2.5478ms  2.5478ms  cuLinkComplete
+                    0.03%  270.01us       240  1.1250us     372ns  12.984us  cuMemGetAddressRange
+                    0.02%  133.79us        16  8.3620us     166ns  128.17us  cuDeviceGetAttribute
+                    0.01%  90.101us       303     297ns     157ns  5.5540us  cuCtxGetDevice
+                    0.01%  54.976us         1  54.976us  54.976us  54.976us  cuLinkCreate
+                    0.00%  15.437us         1  15.437us  15.437us  15.437us  cuDeviceGetName
+                    0.00%  8.4140us         1  8.4140us  8.4140us  8.4140us  cuDeviceGetPCIBusId
+                    0.00%  6.4570us         1  6.4570us  6.4570us  6.4570us  cuLinkDestroy
+                    0.00%  4.6110us         4  1.1520us     158ns  4.0030us  cuDeviceGetCount
+                    0.00%  2.5400us         1  2.5400us  2.5400us  2.5400us  cuModuleGetFunction
+                    0.00%  2.4460us         1  2.4460us  2.4460us  2.4460us  cuInit
+                    0.00%  1.9460us         2     973ns     456ns  1.4900us  cuFuncGetAttribute
+                    0.00%  1.0490us         2     524ns     279ns     770ns  cuModuleGetGlobal
+                    0.00%     726ns         2     363ns     176ns     550ns  cuDeviceGet
+                    0.00%     421ns         1     421ns     421ns     421ns  cuCtxGetCurrent
+                    0.00%     166ns         1     166ns     166ns     166ns  cuDriverGetVersion
+
+Text51
+OpenMP (300 Threads) - Encrypted Duration  44.1733
+
+OpenMP (300 Threads) - Decrypted Duration  43.1751
+
+Legit solution: 1
+==477602== NVPROF is profiling process 477602, command: ./AES_OMPG 51 300
+Number of threads: 300
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.8054
+12.0337
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.4095
+
+Legit solution: 1
+==477602== Profiling application: ./AES_OMPG 51 300
+==477602== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.26%  96.010ms        30  3.2003ms  3.1826ms  3.2147ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   30.68%  62.338ms       120  519.48us  1.6320us  1.4532ms  [CUDA memcpy HtoD]
+                   22.06%  44.808ms        60  746.81us  636.16us  2.7163ms  [CUDA memcpy DtoH]
+      API calls:   26.09%  214.58ms         1  214.58ms  214.58ms  214.58ms  cuCtxCreate
+                   23.07%  189.75ms        24  7.9062ms  7.0489ms  10.487ms  cuLinkAddData
+                   14.95%  122.99ms       120  1.0249ms  9.8760us  2.6253ms  cuMemcpyHtoD
+                   11.69%  96.157ms        30  3.2052ms  3.1874ms  3.2245ms  cuCtxSynchronize
+                    8.68%  71.420ms        60  1.1903ms  986.58us  5.1271ms  cuMemcpyDtoH
+                    6.07%  49.944ms        90  554.94us  237.26us  1.0715ms  cuMemAlloc
+                    4.84%  39.805ms         1  39.805ms  39.805ms  39.805ms  cuCtxDestroy
+                    2.88%  23.705ms        90  263.39us  102.57us  606.41us  cuMemFree
+                    0.95%  7.8342ms         1  7.8342ms  7.8342ms  7.8342ms  cuModuleLoadData
+                    0.42%  3.4875ms        30  116.25us  23.161us  2.7235ms  cuLaunchKernel
+                    0.28%  2.3308ms         1  2.3308ms  2.3308ms  2.3308ms  cuLinkComplete
+                    0.03%  274.65us       240  1.1440us     375ns  2.7130us  cuMemGetAddressRange
+                    0.01%  123.03us        16  7.6890us     163ns  117.40us  cuDeviceGetAttribute
+                    0.01%  91.922us       303     303ns     144ns  1.6620us  cuCtxGetDevice
+                    0.01%  56.495us         1  56.495us  56.495us  56.495us  cuLinkCreate
+                    0.00%  15.261us         1  15.261us  15.261us  15.261us  cuDeviceGetName
+                    0.00%  10.134us         1  10.134us  10.134us  10.134us  cuDeviceGetPCIBusId
+                    0.00%  5.1680us         1  5.1680us  5.1680us  5.1680us  cuLinkDestroy
+                    0.00%  3.3050us         4     826ns     175ns  2.6620us  cuDeviceGetCount
+                    0.00%  2.1500us         1  2.1500us  2.1500us  2.1500us  cuInit
+                    0.00%  2.0330us         1  2.0330us  2.0330us  2.0330us  cuModuleGetFunction
+                    0.00%  1.4210us         2     710ns     215ns  1.2060us  cuDeviceGet
+                    0.00%  1.3100us         2     655ns     290ns  1.0200us  cuModuleGetGlobal
+                    0.00%  1.2650us         2     632ns     450ns     815ns  cuFuncGetAttribute
+                    0.00%     415ns         1     415ns     415ns     415ns  cuCtxGetCurrent
+                    0.00%     186ns         1     186ns     186ns     186ns  cuDriverGetVersion
+
+Text51
+OpenMP (400 Threads) - Encrypted Duration  46.8209
+
+OpenMP (400 Threads) - Decrypted Duration  43.7277
+
+Legit solution: 1
+==478746== NVPROF is profiling process 478746, command: ./AES_OMPG 51 400
+Number of threads: 400
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+61.0995
+12.0094
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.28
+
+Legit solution: 1
+==478746== Profiling application: ./AES_OMPG 51 400
+==478746== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.33%  95.969ms        30  3.1990ms  3.1819ms  3.2218ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   30.81%  62.476ms       120  520.63us  1.6310us  1.4515ms  [CUDA memcpy HtoD]
+                   21.85%  44.311ms        60  738.52us  617.50us  2.6735ms  [CUDA memcpy DtoH]
+      API calls:   27.66%  239.88ms        24  9.9950ms  7.0949ms  21.207ms  cuLinkAddData
+                   24.41%  211.72ms         1  211.72ms  211.72ms  211.72ms  cuCtxCreate
+                   14.21%  123.22ms       120  1.0268ms  8.9910us  2.5576ms  cuMemcpyHtoD
+                   11.08%  96.123ms        30  3.2041ms  3.1858ms  3.2275ms  cuCtxSynchronize
+                    8.12%  70.451ms        60  1.1742ms  959.45us  5.0207ms  cuMemcpyDtoH
+                    5.61%  48.671ms        90  540.79us  185.40us  1.0710ms  cuMemAlloc
+                    4.54%  39.334ms         1  39.334ms  39.334ms  39.334ms  cuCtxDestroy
+                    2.59%  22.476ms        90  249.73us  86.892us  518.64us  cuMemFree
+                    1.03%  8.9032ms         1  8.9032ms  8.9032ms  8.9032ms  cuModuleLoadData
+                    0.39%  3.3893ms        30  112.98us  22.009us  2.6647ms  cuLaunchKernel
+                    0.28%  2.4006ms         1  2.4006ms  2.4006ms  2.4006ms  cuLinkComplete
+                    0.04%  309.11us       240  1.2870us     346ns  22.246us  cuMemGetAddressRange
+                    0.01%  123.00us        16  7.6870us     167ns  117.24us  cuDeviceGetAttribute
+                    0.01%  97.113us       303     320ns     137ns  4.5650us  cuCtxGetDevice
+                    0.01%  55.881us         1  55.881us  55.881us  55.881us  cuLinkCreate
+                    0.00%  14.398us         1  14.398us  14.398us  14.398us  cuDeviceGetName
+                    0.00%  7.9400us         1  7.9400us  7.9400us  7.9400us  cuDeviceGetPCIBusId
+                    0.00%  4.9840us         1  4.9840us  4.9840us  4.9840us  cuLinkDestroy
+                    0.00%  3.2250us         4     806ns     186ns  2.6120us  cuDeviceGetCount
+                    0.00%  2.5490us         1  2.5490us  2.5490us  2.5490us  cuInit
+                    0.00%  1.7320us         1  1.7320us  1.7320us  1.7320us  cuModuleGetFunction
+                    0.00%  1.6210us         2     810ns     550ns  1.0710us  cuFuncGetAttribute
+                    0.00%  1.1290us         2     564ns     232ns     897ns  cuModuleGetGlobal
+                    0.00%     762ns         2     381ns     187ns     575ns  cuDeviceGet
+                    0.00%     433ns         1     433ns     433ns     433ns  cuCtxGetCurrent
+                    0.00%     172ns         1     172ns     172ns     172ns  cuDriverGetVersion
+
+Text51
+OpenMP (500 Threads) - Encrypted Duration  48.5802
+
+OpenMP (500 Threads) - Decrypted Duration  44.8357
+
+Legit solution: 1
+==480091== NVPROF is profiling process 480091, command: ./AES_OMPG 51 500
+Number of threads: 500
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.2689
+11.914
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.2754
+
+Legit solution: 1
+==480091== Profiling application: ./AES_OMPG 51 500
+==480091== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.55%  95.993ms        30  3.1998ms  3.1880ms  3.2173ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   30.70%  61.978ms       120  516.49us  1.6310us  1.4599ms  [CUDA memcpy HtoD]
+                   21.75%  43.920ms        60  732.00us  625.92us  2.6964ms  [CUDA memcpy DtoH]
+      API calls:   26.29%  214.77ms         1  214.77ms  214.77ms  214.77ms  cuCtxCreate
+                   23.02%  188.01ms        24  7.8338ms  7.0034ms  10.231ms  cuLinkAddData
+                   15.03%  122.74ms       120  1.0229ms  9.3270us  2.4869ms  cuMemcpyHtoD
+                   11.77%  96.137ms        30  3.2046ms  3.1924ms  3.2240ms  cuCtxSynchronize
+                    8.56%  69.896ms        60  1.1649ms  967.79us  5.1337ms  cuMemcpyDtoH
+                    5.95%  48.578ms        90  539.76us  155.40us  1.0707ms  cuMemAlloc
+                    4.75%  38.784ms         1  38.784ms  38.784ms  38.784ms  cuCtxDestroy
+                    2.76%  22.533ms        90  250.37us  93.750us  601.01us  cuMemFree
+                    1.09%  8.9122ms         1  8.9122ms  8.9122ms  8.9122ms  cuModuleLoadData
+                    0.42%  3.4322ms        30  114.41us  23.317us  2.6957ms  cuLaunchKernel
+                    0.30%  2.4528ms         1  2.4528ms  2.4528ms  2.4528ms  cuLinkComplete
+                    0.03%  273.29us       240  1.1380us     405ns  12.061us  cuMemGetAddressRange
+                    0.01%  118.09us        16  7.3800us     171ns  112.60us  cuDeviceGetAttribute
+                    0.01%  94.816us       303     312ns     144ns  5.5750us  cuCtxGetDevice
+                    0.01%  52.827us         1  52.827us  52.827us  52.827us  cuLinkCreate
+                    0.00%  15.465us         1  15.465us  15.465us  15.465us  cuDeviceGetName
+                    0.00%  8.8270us         1  8.8270us  8.8270us  8.8270us  cuDeviceGetPCIBusId
+                    0.00%  5.8050us         1  5.8050us  5.8050us  5.8050us  cuLinkDestroy
+                    0.00%  3.1720us         1  3.1720us  3.1720us  3.1720us  cuInit
+                    0.00%  3.0760us         1  3.0760us  3.0760us  3.0760us  cuModuleGetFunction
+                    0.00%  2.5910us         4     647ns     151ns  2.0880us  cuDeviceGetCount
+                    0.00%  1.4750us         2     737ns     463ns  1.0120us  cuFuncGetAttribute
+                    0.00%  1.2460us         2     623ns     249ns     997ns  cuModuleGetGlobal
+                    0.00%     660ns         2     330ns     158ns     502ns  cuDeviceGet
+                    0.00%     413ns         1     413ns     413ns     413ns  cuCtxGetCurrent
+                    0.00%     177ns         1     177ns     177ns     177ns  cuDriverGetVersion
+
+Text51
+OpenMP (600 Threads) - Encrypted Duration  47.6598
+
+OpenMP (600 Threads) - Decrypted Duration  45.9325
+
+Legit solution: 1
+==481581== NVPROF is profiling process 481581, command: ./AES_OMPG 51 600
+Number of threads: 600
+Text51
+Starting AES CUDA - COUNTER MODE
+filesize: 4194304
+
+Starting AES CUDA - COUNTER MODE KERNEL 
+56.5494
+11.7577
+
+Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
+12.4715
+
+Legit solution: 1
+==481581== Profiling application: ./AES_OMPG 51 600
+==481581== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   47.51%  95.922ms        30  3.1974ms  3.1739ms  3.2238ms  _Z14aes_encryptionPhS_S_j$_omp_fn$0
+                   31.01%  62.618ms       120  521.81us  1.6320us  1.4352ms  [CUDA memcpy HtoD]
+                   21.48%  43.366ms        60  722.77us  605.18us  2.9106ms  [CUDA memcpy DtoH]
+      API calls:   26.28%  215.41ms         1  215.41ms  215.41ms  215.41ms  cuCtxCreate
+                   23.20%  190.21ms        24  7.9256ms  6.9534ms  10.398ms  cuLinkAddData
+                   15.02%  123.10ms       120  1.0258ms  9.1040us  2.8241ms  cuMemcpyHtoD
+                   11.72%  96.090ms        30  3.2030ms  3.1852ms  3.2270ms  cuCtxSynchronize
+                    8.52%  69.854ms        60  1.1642ms  927.65us  5.2530ms  cuMemcpyDtoH
+                    5.92%  48.507ms        90  538.97us  182.21us  1.0933ms  cuMemAlloc
+                    4.72%  38.681ms         1  38.681ms  38.681ms  38.681ms  cuCtxDestroy
+                    2.77%  22.680ms        90  252.00us  90.475us  553.01us  cuMemFree
+                    1.08%  8.8498ms         1  8.8498ms  8.8498ms  8.8498ms  cuModuleLoadData
+                    0.41%  3.3610ms        30  112.03us  21.416us  2.6798ms  cuLaunchKernel
+                    0.29%  2.3847ms         1  2.3847ms  2.3847ms  2.3847ms  cuLinkComplete
+                    0.04%  297.27us       240  1.2380us     347ns  18.826us  cuMemGetAddressRange
+                    0.01%  114.21us        16  7.1380us     171ns  108.36us  cuDeviceGetAttribute
+                    0.01%  92.515us       303     305ns     142ns  1.4590us  cuCtxGetDevice
+                    0.01%  56.406us         1  56.406us  56.406us  56.406us  cuLinkCreate
+                    0.00%  15.358us         1  15.358us  15.358us  15.358us  cuDeviceGetName
+                    0.00%  9.9660us         1  9.9660us  9.9660us  9.9660us  cuDeviceGetPCIBusId
+                    0.00%  9.1370us         1  9.1370us  9.1370us  9.1370us  cuModuleGetFunction
+                    0.00%  4.9850us         1  4.9850us  4.9850us  4.9850us  cuLinkDestroy
+                    0.00%  2.5790us         4     644ns     192ns  1.9630us  cuDeviceGetCount
+                    0.00%  2.4880us         1  2.4880us  2.4880us  2.4880us  cuInit
+                    0.00%  1.4390us         2     719ns     396ns  1.0430us  cuFuncGetAttribute
+                    0.00%  1.1730us         2     586ns     254ns     919ns  cuModuleGetGlobal
+                    0.00%     923ns         2     461ns     242ns     681ns  cuDeviceGet
+                    0.00%     389ns         1     389ns     389ns     389ns  cuCtxGetCurrent
+                    0.00%     170ns         1     170ns     170ns     170ns  cuDriverGetVersion
+
+Text51
 Starting AES CUDA - COUNTER MODE
 
 Starting AES CUDA - COUNTER MODE KERNEL 
-==248569== NVPROF is profiling process 248569, command: ./AES_CUDA 5
-Done Counter Mode in: 0.0474976 (ms).
+==482463== NVPROF is profiling process 482463, command: ./AES_CUDA 51
+Done Counter Mode in: 0.139226 (ms).
 
 Starting AES CUDA - INVERSE COUNTER MODE KERNEL 
-Done Counter Mode in: 0.0459616 (ms).
+Done Counter Mode in: 0.137222 (ms).
 
 Legit solution: 1
-==248569== Profiling application: ./AES_CUDA 5
-==248569== Profiling result:
+==482463== Profiling application: ./AES_CUDA 51
+==482463== Profiling result:
             Type  Time(%)      Time     Calls       Avg       Min       Max  Name
- GPU activities:   52.56%  649.31us        20  32.465us  32.000us  33.472us  aes_encryption(unsigned char*, unsigned char*, unsigned char*, unsigned int)
-                   30.97%  382.59us         6  63.764us  1.7920us  95.647us  [CUDA memcpy HtoD]
-                   16.48%  203.58us         2  101.79us  101.54us  102.05us  [CUDA memcpy DtoH]
-      API calls:   98.01%  243.61ms         6  40.601ms  8.1940us  243.17ms  cudaMalloc
-                    1.25%  3.1089ms         8  388.61us  11.969us  996.23us  cudaMemcpy
-                    0.29%  732.07us        20  36.603us  34.945us  39.832us  cudaThreadSynchronize
-                    0.17%  426.43us         6  71.071us  7.9720us  123.93us  cudaFree
-                    0.07%  164.26us       101  1.6260us     152ns  67.637us  cuDeviceGetAttribute
-                    0.06%  154.38us        20  7.7180us  6.2040us  19.379us  cudaEventSynchronize
-                    0.05%  127.56us        20  6.3780us  3.9280us  25.892us  cudaLaunchKernel
-                    0.03%  70.926us        40  1.7730us  1.2880us  8.0960us  cudaEventRecord
-                    0.02%  40.382us         1  40.382us  40.382us  40.382us  cuDeviceGetName
-                    0.02%  39.060us        40     976ns     455ns  12.863us  cudaEventCreate
-                    0.01%  21.121us        20  1.0560us     856ns  1.7840us  cudaDeviceSynchronize
-                    0.01%  20.462us        40     511ns     387ns  1.0780us  cudaEventDestroy
-                    0.01%  17.710us        20     885ns     701ns  1.6390us  cudaEventElapsedTime
-                    0.00%  8.6400us         1  8.6400us  8.6400us  8.6400us  cuDeviceGetPCIBusId
-                    0.00%  3.2810us         3  1.0930us     227ns  2.5590us  cuDeviceGetCount
-                    0.00%     796ns         2     398ns     184ns     612ns  cuDeviceGet
-                    0.00%     793ns         1     793ns     793ns     793ns  cuDeviceTotalMem
-                    0.00%     282ns         1     282ns     282ns     282ns  cuDeviceGetUuid
+ GPU activities:   40.26%  3.7307ms         2  1.8654ms  1.8405ms  1.8903ms  [CUDA memcpy DtoH]
+                   33.54%  3.1080ms         6  518.00us  1.7600us  787.87us  [CUDA memcpy HtoD]
+                   26.21%  2.4288ms        20  121.44us  119.01us  125.18us  aes_encryption(unsigned char*, unsigned char*, unsigned char*, unsigned int)
+      API calls:   94.86%  245.34ms         6  40.891ms  116.60us  244.61ms  cudaMalloc
+                    3.54%  9.1581ms         8  1.1448ms  14.109us  2.7154ms  cudaMemcpy
+                    0.98%  2.5238ms        20  126.19us  123.19us  142.78us  cudaThreadSynchronize
+                    0.36%  919.10us         6  153.18us  148.95us  159.62us  cudaFree
+                    0.06%  151.79us       101  1.5020us     151ns  69.715us  cuDeviceGetAttribute
+                    0.06%  150.81us        20  7.5400us  4.1140us  31.378us  cudaLaunchKernel
+                    0.06%  146.35us        20  7.3170us  6.6310us  13.531us  cudaEventSynchronize
+                    0.03%  79.203us        40  1.9800us  1.3370us  13.866us  cudaEventRecord
+                    0.02%  44.217us        40  1.1050us     534ns  14.902us  cudaEventCreate
+                    0.01%  35.723us         1  35.723us  35.723us  35.723us  cuDeviceGetName
+                    0.01%  23.201us        40     580ns     459ns  1.3060us  cudaEventDestroy
+                    0.01%  22.395us        20  1.1190us     941ns  1.8970us  cudaDeviceSynchronize
+                    0.01%  19.497us        20     974ns     831ns  1.8510us  cudaEventElapsedTime
+                    0.00%  9.0740us         1  9.0740us  9.0740us  9.0740us  cuDeviceGetPCIBusId
+                    0.00%  3.0150us         3  1.0050us     194ns  2.5400us  cuDeviceGetCount
+                    0.00%     873ns         2     436ns     169ns     704ns  cuDeviceGet
+                    0.00%     501ns         1     501ns     501ns     501ns  cuDeviceTotalMem
+                    0.00%     285ns         1     285ns     285ns     285ns  cuDeviceGetUuid
