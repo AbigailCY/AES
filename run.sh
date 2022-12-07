@@ -9,6 +9,6 @@ done
 
 for threads in 4 8 12 16 20 24 28 32 40 50 60 80 100 200 300 400 500 600
 do 
-    ./AES_OMPC 5 $threads
-    ./AES_OMPG 5 $threads
+    nvprof ./AES_OMPC 5 $threads
+    nvprof ./AES_OMPG 5 $threads
 done  
