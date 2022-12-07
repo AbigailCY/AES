@@ -63,7 +63,6 @@ int main(int argc, char* argv[])
 	omp_set_num_threads(num_threads);
 
 	cout << "Text" << i<< endl;
-	cout <<  "Number of threads" << omp_get_num_threads() << endl;
 	string file_path_key = "../key.txt";
 	string file_path_messages = "../text" + std::to_string(i) + ".txt";
 	int filesize = file_size(file_path_messages.c_str());
