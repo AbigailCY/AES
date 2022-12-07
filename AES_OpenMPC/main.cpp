@@ -26,6 +26,7 @@ int main(int argc, char* argv[])
 	// for (int i = 6; i > 0; i--)
 	// {
 	int i = argv[1]? atoi(argv[1]) : 1;
+	int num_threads = argv[2]? atoi(argv[2]) : 20;
 	cout << endl << "Text" << i;
 	string file_path_key = "../key.txt";
 	string file_path_messages = "../text" + std::to_string(i) + ".txt";
@@ -38,8 +39,8 @@ int main(int argc, char* argv[])
 	ByteArray IV = random_byte_array(iv_length);
 	vector<ByteArray> messages = read_datafile(file_path_messages);
 
-	encrypted_solution = counter_mode(messages, key, IV);
-	decrypted_solution = counter_mode_inverse(encrypted_solution, key, IV);
+	encrypted_solution = counter_mode(messages, key, IV, num_threads);
+	decrypted_solution = counter_mode_inverse(encrypted_solution, key, IV, num_threads);
 
 	cout << endl << "Legit solution: " << check_vector_of_byte_arrays(decrypted_solution, messages) << endl;
 	// }

@@ -21,7 +21,6 @@ using std::vector;
 using std::string;
 using std::ifstream;
 
-#define NUM_THREADS 20
 #define ROUNDS 10
 
 /*********************************************************************/
@@ -75,7 +74,7 @@ void generate_counters(vector<ByteArray> &ctrs, const ByteArray &IV)
 // Execute the Counter Mode for all Message Blocks
 const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 									const ByteArray &key,
-									const ByteArray &IV)
+									const ByteArray &IV, int num_threads)
 {
 	AES aes(key);
 	vector<ByteArray> encrypted_messages(messages.size(), vector<unsigned char>(KEY_BLOCK, 0x00));
@@ -88,13 +87,13 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 
 	// for (int t = 2; t != NUM_THREADS; t += 2)
 	// {
-		cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Encrypted Duration  ";
+		cout << endl << "OpenMP (" << num_threads << " Threads) - Encrypted Duration  ";
 
 		for (int r = 0; r != ROUNDS; ++r)
 		{
 			auto start_time = std::chrono::high_resolution_clock::now();
 			
-			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, messages) num_threads(NUM_THREADS)
+			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, messages) num_threads(num_threads)
 			{
 				#pragma omp for 
 				for (i = 0; i < messages.size(); ++i)
@@ -119,7 +118,7 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 // Execute the Inverse Counter Mode for all Decrypted Message Blocks
 const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_messages,
 											const ByteArray &key,
-											const ByteArray &IV)
+											const ByteArray &IV, int num_threads)
 {
 	AES aes(key);
 	vector<ByteArray> decrypted_messages(encrypted_messages.size(), vector<unsigned char>(KEY_BLOCK, 0x00));
@@ -132,13 +131,13 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 	// for (int t = 2; t != NUM_THREADS; t += 2)
 	// {
-		cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Decrypted Duration  ";
+		cout << endl << "OpenMP (" << num_threads << " Threads) - Decrypted Duration  ";
 
 		for (int r = 0; r != ROUNDS; ++r)
 		{
 			auto start_time = std::chrono::high_resolution_clock::now();
 
-			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, decrypted_messages) num_threads(NUM_THREADS)
+			#pragma omp parallel private(i) shared(aes, encrypted_messages, ctrs, decrypted_messages) num_threads(num_threads)
 			{
 				#pragma omp for 
 				for (i = 0; i < encrypted_messages.size(); ++i)
