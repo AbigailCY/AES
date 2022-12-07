@@ -1,6 +1,6 @@
 .SUFFIXES: .cpp .o
 CXX = g++
-CXXFLAGS = -std=c++11 -Ofast -fopenmp -foffload==nvptx-none="-Ofast -lm -latomic -misa=sm_35
+CXXFLAGS = -std=c++11 -Ofast -fopenmp -foffload==nvptx-none="-Ofast -lm -latomic -misa=sm_35"
 EXEC = AES_OMPG
 OBJS = Helper.o Mode.o AES.o main.o
 ${EXEC}: ${OBJS}
