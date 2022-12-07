@@ -64,8 +64,6 @@ int main(int argc, char* argv[])
 
 	#pragma omp parallel
 	{
-	#pragma omp for 
-	for (int jj = 0; jj < 100; jj++) {bool a = true;}
 	#pragma omp single
 	cout << "Number of threads: "<<omp_get_num_threads() << endl;
 	}
@@ -97,6 +95,7 @@ int main(int argc, char* argv[])
 
 	// Starting Encryption
 	cout << endl << "Starting AES CUDA - COUNTER MODE KERNEL " << endl;
+	counter_launch_kernel(plaintexts, encrypted_solution, keys, filesize);
 	counter_launch_kernel(plaintexts, encrypted_solution, keys, filesize);
 
 	// Starting Decryption
