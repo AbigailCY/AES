@@ -39,9 +39,9 @@ void generate_counters(vector<ByteArray> &ctrs, const ByteArray &IV);
 // Execute the Counter Mode for all Message Blocks
 const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 									const ByteArray &key,
-									const ByteArray &IV);
+									const ByteArray &IV, int num_threads);
 
 // Execute the Inverse Counter Mode for all Decrypted Message Blocks
 const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_messages,
 											const ByteArray &key,
-											const ByteArray &IV);
+											const ByteArray &IV, int num_threads);
