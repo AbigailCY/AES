@@ -62,6 +62,14 @@ int main(int argc, char* argv[])
 	int num_threads = argv[2] ? atoi(argv[2]) :20;
 	omp_set_num_threads(num_threads);
 
+	#pragma omp parallel
+	{
+	#pragma omp for 
+	for (int jj = 0; jj < 100; jj++) {bool a = true;}
+	#pragma omp single
+	cout << "Number of threads: "<<omp_get_num_threads() << endl;
+	}
+
 	cout << "Text" << i<< endl;
 	string file_path_key = "../key.txt";
 	string file_path_messages = "../text" + std::to_string(i) + ".txt";
