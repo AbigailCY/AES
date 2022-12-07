@@ -2,14 +2,19 @@
 /*                       INCLUDES AND DEFINES                        */
 /*********************************************************************/
 
+// #include "cuda_runtime.h"
+// #include "device_launch_parameters.h"
+// #include <cuda.h>
+
 #include <vector>
-#include <string>
+#include <random>
 #include <iostream>
 #include <fstream>
-#include <random>
-#include <omp.h>
+#include <iostream>
+#include <tuple>
 
-#include "Helper.hpp"
+#include "Helper.h"
+#include "AES.h"
 
 using std::cout;
 using std::endl;
@@ -21,41 +26,44 @@ using std::ifstream;
 /*                          HELPER FUNCTIONS                         */
 /*********************************************************************/
 
-// Read-In Datafile in Hex-Format and Vector of ByteArrays
-const vector<ByteArray> read_datafile(const string &file_path)
+// Read in Filesize
+long int file_size(const char file_path[])
 {
-	vector<ByteArray> data;
-	char act_char;
-	unsigned int counter = 0;
-	ByteArray next_byte_array;
-	ifstream infile;
+	FILE * fp_input;
+	fp_input = fopen(file_path, "rb");
 
-	infile.open(file_path);
+	fseek(fp_input, 0L, SEEK_END);
+	long int FILESIZE = ftell(fp_input);
+	fclose(fp_input);
 
-	while (!infile.eof())
+	return FILESIZE;
+}
+
+// Read-In Datafile in Hex-Format
+void read_datafile(const char file_path[], unsigned char *plaintexts)
+{
+	FILE * fp_input;
+	fp_input = fopen(file_path, "rb");
+
+	fseek(fp_input, 0L, SEEK_END);
+	long int FILESIZE = ftell(fp_input);
+
+	fseek(fp_input, 0L, SEEK_SET);
+	unsigned long input_cnt = 0;
+	while (feof(fp_input) == 0)
 	{
-		if (counter < KEY_BLOCK)
-		{
-			infile.get(act_char);
-			next_byte_array.push_back(act_char);
-			counter++;
-		}
-		else
-		{
-			data.push_back(next_byte_array);
-			next_byte_array = {};
-			counter = 0;
-		}
+		plaintexts[input_cnt] = fgetc(fp_input);
+		input_cnt++;
 	}
 
-	infile.close();
-	return data;
+	fclose(fp_input);
 }
 
 // Read-In Key Datafile in Hex-Format
-const ByteArray read_key(const string &file_path)
+unsigned char* read_key(const string &file_path)
 {
-	ByteArray data;
+	unsigned char *data;
+	data = new unsigned char[KEY_BLOCK];
 	char act_char;
 	unsigned int counter = 0;
 	ifstream infile;
@@ -65,7 +73,7 @@ const ByteArray read_key(const string &file_path)
 	while (!infile.eof() && counter < KEY_BLOCK)
 	{
 		infile.get(act_char);
-		data.push_back(act_char);
+		data[counter] = act_char;
 		counter++;
 	}
 
@@ -74,16 +82,17 @@ const ByteArray read_key(const string &file_path)
 }
 
 // Generate IV-Vector for Counter Mode
-const ByteArray random_byte_array(const unsigned int &length)
+unsigned char* random_byte_array(const unsigned int &length)
 {
-	ByteArray byte_array(length);
+	unsigned char *byte_array;
+	byte_array = new unsigned char[length];
 	size_t i = 0;
 
 	std::random_device rd;
 	std::mt19937 generator(rd());
 	std::uniform_int_distribution<int> distribution(0, 16);
 
-	for (i; i != byte_array.size(); ++i)
+	for (i; i != length; ++i)
 	{
 		byte_array[i] = (unsigned char)distribution(generator);
 	}
@@ -91,85 +100,17 @@ const ByteArray random_byte_array(const unsigned int &length)
 	return byte_array;
 }
 
-// Cout whole ByteArray
-void print_byte_array(ByteArray &arr)
-{
-	for (size_t i = 0; i != arr.size(); ++i)
-	{
-		cout << std::hex << (int)arr[i] << "\t";
-	}
-	cout << endl << endl;
-}
-
-// Checks if two Vector of ByteArrays has same values
-bool check_vector_of_byte_arrays(const vector<ByteArray> &arr1, const vector<ByteArray> &arr2)
-{
-	bool check = true;
-	//bool check_2nd = true;//
-
-	if (arr1.size() != arr2.size())
-		return false;
-
-	for (size_t i = 0; i != arr1.size(); ++i)
-	{
-	  if (arr1[i] != arr2[i])
-			check = check_byte_arrays(arr1[i], arr2[i]);
-		if (!check)
-		{
-			cout << endl << "Error at index i = " << i << " "  << endl;
-			return false;
-		}
-	}
-	
-
-	return true;
-}
-
 // Checks if two ByteArrays has same values
-bool check_byte_arrays(const ByteArray &arr1, const ByteArray &arr2)
+bool check_byte_arrays(unsigned char *arr1, unsigned char *arr2, const unsigned int &size)
 {
-	if (arr1.size() != arr2.size())
-		return false;
-
-	for (size_t i = 0; i != arr1.size(); ++i)
+	for (size_t i = 0; i != size; ++i)
 	{
 		if (arr1[i] != arr2[i])
-		{
-		  cout << endl << "Error at index i2 = " << i << endl;
+		{ 
+			cout << endl << "Error at i = " << i << " 1: " << arr1[i] << " , 2: " << arr2[i] << endl;
 			return false;
 		}
 	}
 
 	return true;
-}
-
-// Cout hex byte
-void print_byte(const unsigned char &byte)
-{
-	cout << endl << "Byte: " << std::hex << (int)byte;
-}
-
-// XOR for ByteArray
-ByteArray XOR(const ByteArray &arr1, const ByteArray &arr2)
-{
-	ByteArray res(arr1.size(), 0x00);
-	int i = 0;
-
-	for (i; i != arr1.size(); ++i)
-	{
-		res[i] = arr1[i] ^ arr2[i];
-	}
-
-	return res;
-}
-
-// XOR for ByteArray
-void XOR(ByteArray &arr1, const ByteArray &arr2, const unsigned int &length)
-{
-	register int i = 0;
-  
-	for (i; i != length; ++i)
-	{
-		arr1[i] = arr1[i] ^ arr2[i];
-	}	      
 }

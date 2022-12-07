@@ -2,15 +2,15 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Ofast -fopenmp -foffload==nvptx-none="-Ofast -lm -latomic -misa=sm_35"
 EXEC = AES_OMPG
-OBJS = Helper.o Mode.o AES.o main.o
+OBJS = Table.o Helper.o AES.o main.o
 ${EXEC}: ${OBJS}
 	${CXX} ${CXXFLAGS} -o ${EXEC} ${OBJS}
-.cpp.o: # Abstract rule
+.cu.o: # Abstract rule
 	${CXX} ${CXXFLAGS} -c $<
 # Still need to list the dependencies for object files
-Helper.o: Helper.cpp Helper.hpp AES.hpp
-Mode.o: Mode.cpp Helper.hpp Mode.hpp AES.hpp
-AES.o: AES.cpp AES.hpp Helper.hpp Table.hpp
-main.o: main.cpp AES.hpp Helper.hpp Mode.hpp
+Table.o: Table.cpp Table.h
+Helper.o: Helper.cpp Helper.h AES.h
+AES.o: AES.cpp AES.h Helper.h Table.h
+main.o: main.cpp AES.h Helper.h
 clean:
 	rm -f ${EXEC} ${OBJS}

@@ -142,7 +142,7 @@ int main()
 		decrypted_solution = new unsigned char[filesize];
 		encrypted_solution = new unsigned char[filesize];
 
-		cout << endl << "Ready to start!" << endl << endl;
+		// cout << endl << "Ready to start!" << endl << endl;
 
 		// Starting Encryption
 		cout << endl << "Starting AES CUDA - COUNTER MODE KERNEL " << endl;
@@ -156,5 +156,5 @@ int main()
 		cout << endl << "Legit solution: " << check_byte_arrays(plaintexts, decrypted_solution, filesize) << endl;
 	}
 
-	return -1;
+	return 0;
 }

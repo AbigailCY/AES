@@ -42,5 +42,5 @@ int main()
 		cout << endl << "Legit solution: " << check_vector_of_byte_arrays(decrypted_solution, messages) << endl;
 	}
 
-	return -1;
+	return 0;
 }
