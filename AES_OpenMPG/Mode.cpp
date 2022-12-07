@@ -84,13 +84,14 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	int i = 0;
 
 	// Starting Timers and Counter Mode for Encryption
-	float microseconds = 0.0f;
+	double microseconds = 0.0;
+	double start_time, end_time, exec_time;
 
 	cout << endl << "OpenMP - Encrypted Duration  ";
 
 	for (int r = 0; r != ROUNDS; ++r)
 	{
-		auto start_time = std::chrono::high_resolution_clock::now();
+		start_time = omp_get_wtime();
 		
 		// #pragma omp target data map(from: encrypted_messages) map(to: aes, ctrs,messages )
 		// {
@@ -102,13 +103,13 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 			}
 		// }
 
-		auto end_time = std::chrono::high_resolution_clock::now();
-		auto time = end_time - start_time;
-		microseconds += std::chrono::duration_cast<std::chrono::microseconds>(time).count();
+		end_time = omp_get_wtime();
+    	exec_time = end_time - start_time;
+		microseconds += exec_time;
 	}
 
-	cout << microseconds / (1000.0f * ROUNDS) << endl;
-	microseconds = 0.0f;
+	cout << microseconds * 1000.0/ ROUNDS << endl;
+	microseconds = 0.0;
 
 
 	return encrypted_messages;
@@ -126,17 +127,13 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 	int i = 0;
 
 	// Starting Timers and Counter Mode for Encryption
-	// float microseconds = 0.0f;
 	double microseconds = 0.0;
 	double start_time, end_time, exec_time;
 
-	// for (int t = 2; t != NUM_THREADS; t += 2)
-	// {
 	cout << endl << "OpenMP  - Decrypted Duration  ";
 
 	for (int r = 0; r != ROUNDS; ++r)
 	{
-		// auto start_time = std::chrono::high_resolution_clock::now();
 		start_time = omp_get_wtime();
 
 		#pragma omp target data map(from: decrypted_messages) map(to: aes, encrypted_messages, ctrs)
@@ -150,9 +147,6 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 		}
 
-		// auto end_time = std::chrono::high_resolution_clock::now();
-		// auto time = end_time - start_time;
-		// microseconds += std::chrono::duration_cast<std::chrono::microseconds>(time).count();
 		end_time = omp_get_wtime();
     	exec_time = end_time - start_time;
 		microseconds += exec_time;
@@ -161,7 +155,6 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 	cout << microseconds * 1000.0/ ROUNDS << endl;
 	microseconds = 0.0;
-	// }
 
 	return decrypted_messages;
 }
