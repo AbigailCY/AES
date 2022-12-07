@@ -21,7 +21,7 @@ using std::vector;
 using std::string;
 using std::ifstream;
 
-#define NUM_THREADS 20
+// #define NUM_THREADS 20
 #define ROUNDS 10
 
 /*********************************************************************/
@@ -86,13 +86,13 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	// Starting Timers and Counter Mode for Encryption
 	float microseconds = 0.0f;
 
-	cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Encrypted Duration  ";
+	cout << endl << "OpenMP - Encrypted Duration  ";
 
 	for (int r = 0; r != ROUNDS; ++r)
 	{
 		auto start_time = std::chrono::high_resolution_clock::now();
 		
-		#pragma omp target map(aes, encrypted_messages[0:messages.size()], ctrs[0:messages.size()], messages[0:messages.size()]) num_threads(NUM_THREADS)
+		#pragma omp target map(aes, encrypted_messages[0:messages.size()], ctrs[0:messages.size()], messages[0:messages.size()])
 		#pragma omp parallel for 
 		for (i = 0; i < messages.size(); ++i)
 		{
@@ -129,14 +129,14 @@ const vector<ByteArray> counter_mode_inverse(const vector<ByteArray> &encrypted_
 
 	// for (int t = 2; t != NUM_THREADS; t += 2)
 	// {
-	cout << endl << "OpenMP (" << NUM_THREADS << " Threads) - Decrypted Duration  ";
+	cout << endl << "OpenMP  - Decrypted Duration  ";
 
 	for (int r = 0; r != ROUNDS; ++r)
 	{
 		// auto start_time = std::chrono::high_resolution_clock::now();
 		start_time = omp_get_wtime();
 
-		#pragma omp target map(aes, encrypted_messages[0:encrypted_messages.size()], ctrs[0:encrypted_messages.size()], decrypted_messages[0:encrypted_messages.size()]) num_threads(NUM_THREADS)
+		#pragma omp target map(aes, encrypted_messages[0:encrypted_messages.size()], ctrs[0:encrypted_messages.size()], decrypted_messages[0:encrypted_messages.size()])
 		#pragma omp parallel for 
 		for (i = 0; i < encrypted_messages.size(); ++i)
 		{
