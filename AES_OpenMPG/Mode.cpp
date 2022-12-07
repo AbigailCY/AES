@@ -92,8 +92,8 @@ const vector<ByteArray> counter_mode(const vector<ByteArray> &messages,
 	{
 		auto start_time = std::chrono::high_resolution_clock::now();
 		
-		// #pragma omp target map(to: aes, ctrs, messages) map(encrypted_messages)
-		// #pragma omp parallel for 
+		#pragma omp target map(to: aes, ctrs, messages) map(encrypted_messages)
+		#pragma omp parallel for simd
 		for (i = 0; i < messages.size(); ++i)
 		{
 			encrypted_messages[i] = XOR(aes.encrypt(ctrs[i]), messages[i]);
