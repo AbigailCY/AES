@@ -23,6 +23,9 @@ make
 Usage:
 ```
 ./AES_CUDA text_file_number
+
+#use nvprof to profile GPU utilization:
+nvprof ./AES_CUDA text_file_number
 ```
 
 2. AES_SEQ, AES_OMPC, AES_OMPG compile:
@@ -44,3 +47,6 @@ Usage:
 ```
 
 3. The unit tests are in `AES/exec/run.sh`, the output is in `AES/exec/out.txt`, and the executables in NYU Greene cluster GPU are in `AES/exec/`.
+```
+sh run.sh > out.txt 2>&1 &
+```
