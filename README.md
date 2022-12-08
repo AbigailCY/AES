@@ -10,6 +10,8 @@ Book from http://www.crypto-textbook.com/ Chapter4
 
 All the tests are under NYU Greene cluster. All makefiles are well-written in the subdirectories.
 
+Note that there are some sample text files to test, so `text_file_number` below can be `1,2,3,4,41,5,51,6,61`. Default set to `1`.
+
 1. AES_CUDA compile:
 ```
 ssh burst
